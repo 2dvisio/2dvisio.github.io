@@ -1,0 +1,32 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin:0px;
+  padding:0px;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  
+  background: #000 url(../images/back.png) no-repeat; 
+  -webkit-background-size: auto 800px;
+  -moz-background-size: auto 800px;
+  -o-background-size: auto 800px;
+  background-size: auto 800px;
+  
+  margin:0px;
+  padding:0px; 
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+.special-font{
+  font-family: 'Droid Sans', sans-serif;
+  font-size:20pt;
+}
