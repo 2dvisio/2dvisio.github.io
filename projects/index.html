@@ -34,6 +34,21 @@
 
   <style language="text/css">
   .row-list { margin-top: 20px;}
+
+  section {
+    font-size: 1.2em;
+  }
+
+
+  section:nth-child(odd) {
+
+  }
+  section:nth-child(even) {
+    background-color:#207070;
+    color: #fff;
+  }
+
+
   span.pub { padding: 5px; border-width: 2px; border-style: none; font-size: 1.1em;}
   span.pub a{font-weight: bold; color: #09434e;  font-size: 0.9em;}
   span.pub name{font-weight: bold; color: #09434e;  font-size: 0.9em;}
@@ -142,10 +157,46 @@
 </header>
 
 <!-- Services Section -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading"><i class="fa fa-code"></i> Open Clinica converter</h2>
+        This python module reads a CSV (converted from XLS) CRF from the Open Clinica format and create a JSON representation compatible with the jquery.dform() method. Used in an HTML page it will render the form seamlessly. Perfect for being used with MongoDB and other NoSQL databases.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 text-center">
+        <pre><i class="fa fa-code"></i> git clone https://github.com/2dvisio/OC2HTML.git</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading"><i class="fa fa-code"></i> GoogleFit Cordova Plugin</h2>
+        This plugin is a proof of concept for a plugin for connecting to GoogleFit from Cordova. <a href="https://github.com/dariosalvi78/cordova-plugin-health">This one here</a> was recently created for storing/reading data from GoogleFit and it attempts to make it compatible with Apple HealthKit, use this one in case you need to do more than just read activity data from GoogleFit.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 text-center">
+        <pre><i class="fa fa-code"></i> git clone https://github.com/2dvisio/cordova-plugin-googlefit.git</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
 <section id="">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
         <h2 class="section-heading"><i class="fa fa-code"></i> P5js</h2>
         Some stuff done out of <a class="reallink"  href="http://p5js.org/">P5js</a>, a JavaScript library that starts with the original goal of <a class="reallink"  href="http://processing.org">Processing</a>.
       </div>
@@ -180,7 +231,6 @@
     </div>
   </div>
 </section>
-
 
 <footer style="border-top:#000 dashed;">
   <div class="container" >
