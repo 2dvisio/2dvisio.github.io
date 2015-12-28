@@ -62,7 +62,7 @@ var n = 0;
 function setup() {
   // put setup code here
   createCanvas(sizeX, sizeY);
-  slider = createSlider(1, 13, 1);
+  slider = createSlider(1, 14, 1);
   slider.position(20, 20);
 }
 
