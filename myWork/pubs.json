@@ -20,6 +20,16 @@
     "doi": "http://dx.doi.org/10.1177/2055207616671461"
   },
   {
+    "authors": "Ming, Wai-Kit; Mackillop, Lucy H; Farmer, Andrew J; Loerup, Lise; Bartlett, Katy; Levy, Jonathan C; Tarassenko, Lionel; Velardo, Carmelo; Kenworthy, Yvonne; Hirst, Jane E",
+    "doi": "http://dx.doi.org/10.2196/jmir.6556",
+    "type": "journal",
+    "source": "Journal of Medical Internet Research",
+    "date": "11 November 2016",
+    "title": "Telemedicine Technologies for Diabetes in Pregnancy: A Systematic Review and Meta-Analysis",
+    "document": "http://www.jmir.org/2016/11/e290/",
+    "bibtex":"https://www.jmir.org/article/export/bib/jmir_v18i11e290"
+  },
+  {
     "date":"17 March 2016",
     "authors":"Lucy H Mackillop, Katy Bartlett, Jacqueline Birks, Andrew J Farmer, Oliver J Gibson, Dev A Kevat, Yvonne Kenworthy, Jonathan C Levy, Lise Loerup, Lionel Tarassenko, Carmelo Velardo, Jane E Hirst",
     "title":"Trial protocol to compare the efficacy of a smartphone-based blood glucose management system with standard clinic care in the gestational diabetic population",
