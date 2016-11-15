@@ -10,6 +10,16 @@
     "type":"book"
   },
   {
+    "authors": "Chantler, Tracey; Paton, Chris, Velardo, Carmelo; Triantafyllidis, Andreas; Shah, Syed A; Stoppani, Emma; Conrad, Nathalie; Fitzpatrick, Ray; Tarassenko, Lionel; Rahimi, Kazem",
+    "type": "journal",
+    "source": "Digital Health - SAGE Publications",
+    "title": "Creating connections--the development of a mobile-health monitoring system for heart failure: Qualitative findings from a usability cohort study",
+    "date": "10 October 2016",
+    "document":"http://dhj.sagepub.com/content/2/2055207616671461.full.pdf",
+    "bibtex":"http://dhj.sagepub.com/highwire/citation/8001/bibtext",
+    "doi": "http://dx.doi.org/10.1177/2055207616671461"
+  },
+  {
     "date":"17 March 2016",
     "authors":"Lucy H Mackillop, Katy Bartlett, Jacqueline Birks, Andrew J Farmer, Oliver J Gibson, Dev A Kevat, Yvonne Kenworthy, Jonathan C Levy, Lise Loerup, Lionel Tarassenko, Carmelo Velardo, Jane E Hirst",
     "title":"Trial protocol to compare the efficacy of a smartphone-based blood glucose management system with standard clinic care in the gestational diabetic population",
