@@ -244,7 +244,7 @@
     "type":"conference"
   },
   {
-	"authors": "Hirst, E J; Loerup, L; Mackillop, L; Farmer, A; Kenworthy, Y; Bartlett, K; Velardo, C; Kevat, D A; Tarassenko, L; Levy, J C",
+	"authors": "Hirst, EJ; Loerup, L; Mackillop, L; Farmer, A; Kenworthy, Y; Bartlett, K; Velardo, C; Kevat, D A; Tarassenko, L; Levy, J C",
 	"doi": "10.1111/dme.13035",
 	"issn": "1464-5491",
 	"type": "letter",
@@ -310,6 +310,20 @@
     "document":"",
     "bibtex":"",
     "type":"other"
+  },
+  {
+     "title":"The Utility of Digital Blood Glucose Monitoring Metrics to Predict High Birth Weight in Women with Gestational Diabetes",
+     "date":"2015",
+     "source":"ADA 75th Scientific Sessions, Boston, MA, June 2015 (poster)",
+     "authors":"Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
+     "type":"other"
+  },
+  {
+     "title":"The Utility of Digital Blood Glucose Monitoring Metrics to Predict High Birth Weight in Women with Gestational Diabetes Mellitus",
+     "date":"2015",
+     "source":"SOMANZ Annual Scientific Meeting, Melbourne, AUS, October 2015 (poster)",
+     "authors":"Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
+     "type":"other"
   },
   {
     "date":"13 October 2014",
