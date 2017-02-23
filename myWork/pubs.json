@@ -10,6 +10,16 @@
     "type":"book"
   },
   {
+    "authors": "Carmelo Velardo, Syed Ahmar Shah, Oliver Gibson, Gari Clifford, Carl Heneghan, Heather Rutter, Andrew Farmer, and Lionel Tarassenko, on behalf of the EDGE COPD Team",
+    "type": "journal",
+    "source": "BMC Medical Informatics and Decision Makings",
+    "title": "Digital health system for personalised COPD long-term management",
+    "date": "20 February 2017",
+    "document":"http://bmcmedinformdecismak.biomedcentral.com/track/pdf/10.1186/s12911-017-0414-8?site=bmcmedinformdecismak.biomedcentral.com",
+    "bibtex":"http://citation-needed.services.springer.com/v2/references/10.1186/s12911-017-0414-8?format=bibtex&flavour=full",
+    "doi": "http://dx.doi.org/10.1186/s12911-017-0414-8"
+  },
+  {
     "authors": "Chantler, Tracey; Paton, Chris, Velardo, Carmelo; Triantafyllidis, Andreas; Shah, Syed A; Stoppani, Emma; Conrad, Nathalie; Fitzpatrick, Ray; Tarassenko, Lionel; Rahimi, Kazem",
     "type": "journal",
     "source": "Digital Health - SAGE Publications",
