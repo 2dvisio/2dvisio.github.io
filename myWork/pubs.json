@@ -9,16 +9,26 @@
     "bibtex":"http://www.eurecom.fr/publication/3440.bib",
     "type":"book"
   },
-  {
-    "authors": "Velardo, Carmelo; Shah, Syed A; Gibson, Oliver; Clifford, Gari; Heneghan, Carl; Rutter, Heather; Farmer, Andrew; Tarassenko, Lionel",
-    "type": "journal",
-    "source": "BMC Medical Informatics and Decision Makings",
-    "title": "Digital health system for personalised COPD long-term management",
-    "date": "20 February 2017",
-    "document":"http://bmcmedinformdecismak.biomedcentral.com/track/pdf/10.1186/s12911-017-0414-8?site=bmcmedinformdecismak.biomedcentral.com",
-    "bibtex":"http://citation-needed.services.springer.com/v2/references/10.1186/s12911-017-0414-8?format=bibtex&flavour=full",
-    "doi": "http://dx.doi.org/10.1186/s12911-017-0414-8"
-  },
+{
+  "authors": "Velardo, Carmelo; Shah, Syed A; Farmer, Andrew; Tarassenko, Lionel",
+  "type": "journal",
+  "source": "Journal of Medical Internet Research",
+  "title": "Exacerbations in Chronic Obstructive Pulmonary Disease: Identification and Prediction Using a Digital Health System",
+  "date": "7 March 2017",
+  "document":"http://www.jmir.org/2017/3/e69/",
+  "bibtex":"https://www.jmir.org/article/export/bib/jmir_v19i3e69",
+  "doi": "http://dx.doi.org/10.2196/jmir.7207"
+},
+{
+  "authors": "Velardo, Carmelo; Shah, Syed A; Gibson, Oliver; Clifford, Gari; Heneghan, Carl; Rutter, Heather; Farmer, Andrew; Tarassenko, Lionel",
+  "type": "journal",
+  "source": "BMC Medical Informatics and Decision Makings",
+  "title": "Digital health system for personalised COPD long-term management",
+  "date": "20 February 2017",
+  "document":"http://bmcmedinformdecismak.biomedcentral.com/track/pdf/10.1186/s12911-017-0414-8?site=bmcmedinformdecismak.biomedcentral.com",
+  "bibtex":"http://citation-needed.services.springer.com/v2/references/10.1186/s12911-017-0414-8?format=bibtex&flavour=full",
+  "doi": "http://dx.doi.org/10.1186/s12911-017-0414-8"
+},
   {
     "authors": "Chantler, Tracey; Paton, Chris, Velardo, Carmelo; Triantafyllidis, Andreas; Shah, Syed A; Stoppani, Emma; Conrad, Nathalie; Fitzpatrick, Ray; Tarassenko, Lionel; Rahimi, Kazem",
     "type": "journal",
