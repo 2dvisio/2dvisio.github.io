@@ -1,14 +1,4 @@
 [
-  {
-    "date":"February 2011",
-    "authors":"Velardo, Carmelo; Dugelay, Jean-Luc; Daniel, Lionel; Dantcheva, Antitza; Erdogmus, Nesli; Kose, Neslihan; Min, Rui; Zhao, Xuran",
-    "title":"Introduction to biometry",
-    "popup-publications":"http://www.eurecom.fr/en/publication/3440/detail/introduction-to-biometry?popup=1",
-    "source":"Book chapter in \"Multimedia Image and Video Processing\" (2nd revised edition); CRC Press; ISBN:978-1439830864",
-    "document":"http://www.eurecom.fr/en/publication/3440/askforfile?popup=1",
-    "bibtex":"http://www.eurecom.fr/publication/3440.bib",
-    "type":"book"
-  },
 {
   "authors": "Velardo, Carmelo; Shah, Syed A; Farmer, Andrew; Tarassenko, Lionel",
   "type": "journal",
@@ -286,6 +276,16 @@
     "document":"http://www.eurecom.fr/en/publication/3593/copyright?popup=1",
     "bibtex":"http://www.eurecom.fr/publication/3593.bib",
     "type":"report"
+  },
+  {
+    "date":"February 2011",
+    "authors":"Velardo, Carmelo; Dugelay, Jean-Luc; Daniel, Lionel; Dantcheva, Antitza; Erdogmus, Nesli; Kose, Neslihan; Min, Rui; Zhao, Xuran",
+    "title":"Introduction to biometry",
+    "popup-publications":"http://www.eurecom.fr/en/publication/3440/detail/introduction-to-biometry?popup=1",
+    "source":"Book chapter in \"Multimedia Image and Video Processing\" (2nd revised edition); CRC Press; ISBN:978-1439830864",
+    "document":"http://www.eurecom.fr/en/publication/3440/askforfile?popup=1",
+    "bibtex":"http://www.eurecom.fr/publication/3440.bib",
+    "type":"book"
   },
   {
     "date":"March 2012",
