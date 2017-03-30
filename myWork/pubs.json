@@ -1,5 +1,15 @@
 [
 {
+  "authors": "Andrew J Farmer, Veronika Williams, Carmelo Velardo, Syed Ahmar Shah, Ly-Mee Yu, Heather Rutter, Louise Jones, Nicola Williams, Carl Heneghan, Jonathan Price, Maxine Hardinge, Lionel Tarassenko",
+  "type": "journal",
+  "source": "Journal of Medical Internet Research",
+  "title": "Self-management support using a digital health system compared with usual care for chronic obstructive pulmonary disease: randomized controlled trial",
+  "date": "Editing",
+  "document":"http://www.jmir.org/",
+  "bibtex":"https://www.jmir.org/",
+  "doi": "http://dx.doi.org/"
+},
+{
   "authors": "Shah, Syed Ahmar; Velardo, Carmelo; Farmer, Andrew; Tarassenko, Lionel",
   "type": "journal",
   "source": "Journal of Medical Internet Research",

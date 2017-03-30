@@ -254,6 +254,24 @@
   </section>
 
   <script>
+
+
+  function swapNameAndBoldify(text, name) {
+    return text.replace(name, '<span style="text-decoration: underline">' + name + '</span>')
+  }
+
+  function findMyName(authors) {
+    authors = swapNameAndBoldify(authors, "C. Velardo")
+    authors = swapNameAndBoldify(authors, "C Velardo")
+    authors = swapNameAndBoldify(authors, "Carmelo Velardo")
+    authors = swapNameAndBoldify(authors, "Carmelo, Velardo")
+    authors = swapNameAndBoldify(authors, "Velardo C.")
+    authors = swapNameAndBoldify(authors, "Velardo C")
+    authors = swapNameAndBoldify(authors, "Velardo Carmelo")
+    authors = swapNameAndBoldify(authors, "Velardo, Carmelo")
+    return authors
+  }
+
   function formatPub(title, authors, link, where, when, type2) {
     var type = type2;
     if (type2 == 'report') type = "paperclip";
@@ -264,7 +282,7 @@
     if (type2 == 'other') type = "file-image-o"
     return '<li class="row-list"><i title="'+ type2 +'" class="fa-li fa fa-' + type + '"></i>'+
     '<span class="pub"><name>' + title + '</name><br/>'+
-    '<authors>' + authors + '</authors><br/>'+
+    '<authors>' + findMyName(authors) + '</authors><br/>'+
     '<where>' + where + '</where> - <when>' + when + '</when>'+
     (link != "" ? ' - <a href="' + link + '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
     '</span>'+
