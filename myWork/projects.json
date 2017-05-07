@@ -1,19 +1,11 @@
 [
 {
-"name":"[Active] Telehealth for COPD patients - EDGE",
-"funding":"Wellcome Trust and Department of Health (Health Innovation Challenge Fund",
+"name":"[Active] Summit-D: Support through mobile messaging and digital health technology for diabetes",
+"funding":"Programme Grants for Applied Research - NIHR",
 "where":"University of Oxford",
-"collaborators":"Prof Lionel Tarassenko, Prof Andrew Farmer, Dr Carl Heneghan, Dr Maxine Hardinge, Dr Jonathan Price",
-"description":"<p>Building a generic telehealth solution for the management of chronic illness, based on mobile communications technology (smart phones and tablets) and capable of large-scale deployment, with Chronic Obstructive Pulmonary Disease (COPD) as the first exemplar.</p>",
-"link":"http://www.ibme.ox.ac.uk/bsp/research/telehealth-for-copd-patients"
-},
-{
-"name":"[Active] Telehealth in Gestational diabetes - GDm-health",
-"funding":"Oxford Biomedical Research Centre (OxBRC)",
-"where":"University of Oxford",
-"collaborators":"Dr Lucy Mackillop, Dr Andrew Farmer, Prof Lionel Tarassenko",
-"description":"<p>Deliver intensive monitoring and management to women with gestational diabetes while improving the quality of care. This is a randomised controlled trial with 200 pregnant women. This project won the ‘Best digital innovation’ award from the ‘Quality in care programme’.</p>",
-"link":"http://www.oxfordahsn.org/wp-content/uploads/2014/03/Diabetes-Launch-MacKillop.pdf"
+"collaborators":"Dr Andrew Farmer, Prof Lionel Tarassenko",
+"description":"<p>The aim is to develop and test a mobile-device based system delivering automated, tailored brief messages to offer support for medicine use alongside usual care to people with type 2 diabetes. This will include developing and refining the content of messages targeted at a wide range of medication adherence behaviours, and developing and optimising the system for delivering them.</p>",
+"link":"https://www.phc.ox.ac.uk/research/diabetes/studies/summit-d"
 },
 {
 "name":"[Active] Implementation study: Telehealth in Gestational diabetes - Treat-GDm",
@@ -24,7 +16,23 @@
 "link":"http://www.oxfordahsn.org/wp-content/uploads/2014/07/140630_Report-to-NHS-England-v7_FINAL.pdf"
 },
 {
-"name":"[Active] Clahrc OxFab: What are the triggers for people to lose weight, what methods do they use, and how successful are they?",
+"name":"[Completed] Telehealth for COPD patients - EDGE",
+"funding":"Wellcome Trust and Department of Health (Health Innovation Challenge Fund",
+"where":"University of Oxford",
+"collaborators":"Prof Lionel Tarassenko, Prof Andrew Farmer, Dr Carl Heneghan, Dr Maxine Hardinge, Dr Jonathan Price",
+"description":"<p>Building a generic telehealth solution for the management of chronic illness, based on mobile communications technology (smart phones and tablets) and capable of large-scale deployment, with Chronic Obstructive Pulmonary Disease (COPD) as the first exemplar.</p>",
+"link":"http://www.ibme.ox.ac.uk/bsp/research/telehealth-for-copd-patients"
+},
+{
+"name":"[Completed] Telehealth in Gestational diabetes - GDm-health",
+"funding":"Oxford Biomedical Research Centre (OxBRC)",
+"where":"University of Oxford",
+"collaborators":"Dr Lucy Mackillop, Dr Andrew Farmer, Prof Lionel Tarassenko",
+"description":"<p>Deliver intensive monitoring and management to women with gestational diabetes while improving the quality of care. This is a randomised controlled trial with 200 pregnant women. This project won the ‘Best digital innovation’ award from the ‘Quality in care programme’.</p>",
+"link":"http://www.oxfordahsn.org/wp-content/uploads/2014/03/Diabetes-Launch-MacKillop.pdf"
+},
+{
+"name":"[Completed] Clahrc OxFab: What are the triggers for people to lose weight, what methods do they use, and how successful are they?",
 "funding":"National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care (NIHR CLAHRC) ",
 "where":"University of Oxford",
 "collaborators":"Prof Paul Aveyard",
@@ -32,7 +40,7 @@
 "link":"http://www.clahrc-oxford.nihr.ac.uk/research/what-are-the-triggers-for-people-to-lose-weight-what-methods-do-they-use-and-how-successful-are-they"
 },
 {
-"name":"[Active] Clahrc Snap-HT: Can self-management following gestational hypertension improve control and detection of raised blood pressure?",
+"name":"[Completed] Clahrc Snap-HT: Can self-management following gestational hypertension improve control and detection of raised blood pressure?",
 "funding":"National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care (NIHR CLAHRC) ",
 "where":"University of Oxford",
 "collaborators":"Prof Richard McManus, Prof Paul Leeson, Dr Lucy Mackillop",
