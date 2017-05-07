@@ -272,7 +272,7 @@
     return authors
   }
 
-  function formatPub(title, authors, link, where, when, type2) {
+  function formatPub(title, authors, link, where, when, type2, bibtex, doi) {
     var type = type2;
     if (type2 == 'report') type = "paperclip";
     if (type2 == 'conference') type = "file-text-o";
@@ -285,6 +285,8 @@
     '<authors>' + findMyName(authors) + '</authors><br/>'+
     '<where>' + where + '</where> - <when>' + when + '</when>'+
     (link != "" ? ' - <a href="' + link + '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
+    (bibtex != "" ? ' - <a href="' + bibtex + '" target="_blank"><span style="font-size:small">bib</span></a>' : "") +
+    (doi != "" ? ' - <a href="' + doi + '" target="_blank"><span style="font-size:small">doi</span></a>' : "") +
     '</span>'+
     '</li>';
   }
@@ -308,8 +310,10 @@
         console.log( "done loading publications -- " );
         var publist = $("#pub-list");
         data.forEach(function(e) {
+          if (!e.bibtex) e.bibtex = ""
+          if (!e.doi) e.doi = ""
           publist.append(
-            formatPub(""+e.title, ""+e.authors, ""+e.document, ""+e.source, ""+e.date, ""+e.type)
+            formatPub(""+e.title, ""+e.authors, ""+e.document, ""+e.source, ""+e.date, ""+e.type, ""+e.bibtex, ""+e.doi)
           );
         });
 
