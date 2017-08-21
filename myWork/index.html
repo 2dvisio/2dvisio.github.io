@@ -320,7 +320,7 @@ function appendPubs(data) {
     publist.append(
       formatPub(
         "" + e.title, "" + e.authors, "" + e.document, "" + e.source,
-        "" + e.date, "" + e.type, "" + e.bibtex, "" + e.doi, "" + e.realDate.getFullYear() )
+        "" + e.date, "" + e.type, "" + e.bibtex, "" + e.doi, "" + e.year )
     );
   });
 }
@@ -356,9 +356,8 @@ $(document).ready(function() {
       publist = $("#pub-list");
 
       data.forEach(function(e) {
-        e.realDate = (new Date(e.date));
+          e.year = e.date.match(/[0-9]{4}$/)[0];
       });
-
 
       appendPubs(data);
 
@@ -366,7 +365,7 @@ $(document).ready(function() {
       var years = [];
       var yearsCount = []
       data.forEach(function(e) {
-        years.push(e.realDate.getFullYear());
+        years.push(e.year);
       });
 
       for (var i = 0; i < years.length; i++) {
