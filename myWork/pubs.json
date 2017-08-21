@@ -4,7 +4,7 @@
   "type": "journal",
   "source": "Journal of Medical Internet Research",
   "title": "Self-management support using a digital health system compared with usual care for chronic obstructive pulmonary disease: randomized controlled trial",
-  "date": "03 May 2017",
+  "date": "3 May 2017",
   "document":"https://www.jmir.org/2017/5/e144/",
   "bibtex":"https://www.jmir.org/article/export/bib/jmir_v19i5e144",
   "doi": "http://dx.doi.org/10.2196/jmir.7116"
@@ -309,7 +309,7 @@
     "type":"other"
   },
   {
-    "date":"16-21 May 2014",
+    "date":"16 May 2014",
     "authors":"Hardinge, Maxine; Rutter, Heather; Velardo, Carmelo; Williams, Veronika; Toms, Christy; Tarassenko, Lionel; Farmer, Andrew",
     "popup-publications":"",
     "title":"Using a mobile health application to support self-management in COPD – development of alert thresholds derived from variability in self-reported and measured clinical variables",
@@ -320,7 +320,7 @@
     "type":"other"
   },
   {
-    "date":"16-21 May 2014",
+    "date":"16 May 2014",
     "authors":"Hardinge, Maxine; Rutter, Heather; Velardo, Carmelo; Williams, Veronika; Toms, Christy; Tarassenko, Lionel; Farmer, Andrew",
     "popup-publications":"",
     "title":"Using a mobile health application to support self-management in COPD – a cohort feasibility study",
@@ -331,7 +331,7 @@
     "type":"other"
   },
   {
-    "date":"1-3 July 2013",
+    "date":"1 July 2013",
     "authors":"Tarassenko, Lionel; Velardo, Carmelo; Shah, Syed Ahmar; Gibson, Oliver John; Clifford, Gari; Heneghan, Carl; Rutter, Heather; Farmer, Andrew",
     "popup-publications":"",
     "title":"m-Health for long-term management of COPD",
@@ -343,7 +343,7 @@
   },
   {
      "title":"The Utility of Digital Blood Glucose Monitoring Metrics to Predict High Birth Weight in Women with Gestational Diabetes",
-     "date":"2015",
+     "date":"June 2015",
      "source":"ADA 75th Scientific Sessions, Boston, MA, June 2015 (poster)",
      "authors":"Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
      "html":"",
@@ -353,7 +353,7 @@
   },
   {
      "title":"The Utility of Digital Blood Glucose Monitoring Metrics to Predict High Birth Weight in Women with Gestational Diabetes Mellitus",
-     "date":"2015",
+     "date":"October 2015",
      "source":"SOMANZ Annual Scientific Meeting, Melbourne, AUS, October 2015 (poster)",
      "authors":"Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
      "html":"",
@@ -384,7 +384,7 @@
     "type":"invited_presentation"
   },
   {
-    "date":"7-8 November 2016",
+    "date":"7 November 2016",
     "authors":"Velardo, Carmelo",
     "popup-publications":"",
     "title":"Digital health platforms and data integration at Oxford",
@@ -428,7 +428,7 @@
     "type":"invited_presentation"
   },
   {
-    "date":"26-30 August 2014",
+    "date":"26 August 2014",
     "authors":"Velardo, Carmelo et al.",
     "popup-publications":"",
     "title":"m-Health Service Infrastructure for Chronic Conditions",

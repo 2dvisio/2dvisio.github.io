@@ -16,7 +16,7 @@
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+<div>
   <!-- Custom CSS -->
   <link href="css/agency.css" rel="stylesheet">
 
@@ -202,6 +202,7 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading"><i class="fa fa-university"></i> Publications</h2>
           <h3 class="section-subheading ">A list of publications.</h3>
+          <ul class="pub_year" id="pub_year"></ul>
         </div>
       </div>
       <div class="row">
@@ -254,92 +255,159 @@
   </section>
 
   <script>
+function swapNameAndBoldify(text, name) {
+  return text.replace(
+    name,
+    '<span style="text-decoration: underline">' + name + "</span>"
+  );
+}
+
+function findMyName(authors) {
+  authors = swapNameAndBoldify(authors, "C. Velardo");
+  authors = swapNameAndBoldify(authors, "C Velardo");
+  authors = swapNameAndBoldify(authors, "Carmelo Velardo");
+  authors = swapNameAndBoldify(authors, "Carmelo, Velardo");
+  authors = swapNameAndBoldify(authors, "Velardo C.");
+  authors = swapNameAndBoldify(authors, "Velardo C");
+  authors = swapNameAndBoldify(authors, "Velardo Carmelo");
+  authors = swapNameAndBoldify(authors, "Velardo, Carmelo");
+  return authors;
+}
+
+function formatPub(title, authors, link, where, when, type2, bibtex, doi, year) {
+  var type = type2;
+  if (type2 == "report") type = "paperclip";
+  if (type2 == "conference") type = "file-text-o";
+  if (type2 == "letter") type = "envelope-o";
+  if (type2 == "journal") type = "university";
+  if (type2 == "invited_presentation") type = "file-powerpoint-o";
+  if (type2 == "other") type = "file-image-o";
+
+  return (
+    '<li year="'+ year +'" class="row-list" date="' + when + '">'+
+    '<i title="' + type2 + '" class="fa-li fa fa-' + type + '"></i>' +
+    '<span class="pub"><name>' + title + "</name><br/>" +
+    "<authors>" + findMyName(authors) + "</authors><br/>" +
+    "<where>" + where + "</where> - <when>" + when + "</when>" +
+    (link != "" ? ' - <a href="' + link +
+        '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
+    (bibtex != "" ? ' - <a href="' + bibtex +
+        '" target="_blank"><span style="font-size:small">bib</span></a>' : "") +
+    (doi != "" ? ' - <a href="' + doi +
+        '" target="_blank"><span style="font-size:small">doi</span></a>' : "") +
+    "</span></li>" );
+}
+
+function formatProj(name, funding, where, collaborators, description, link) {
+  return (
+    '<li class="row-list"><i class="fa-li fa fa-sitemap"></i>' +
+    '<span class="pub"><name>' + name + "</name><br/>" +
+    '<i class="fa fa-group"></i> <authors>' + collaborators + "</authors><br/>"+
+    '<where><i class="fa fa-university"></i> ' + where + "</where>" +
+    (funding != ""
+      ? ' - <when><i class="fa fa-money"></i> ' + funding + "</when>" : "") +
+    (link != "" ? ' - <a href="' + link +
+        '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
+    "<br/><br/><description>" + description + "</description><br/>" +
+    "</span></li>");
+}
 
 
-  function swapNameAndBoldify(text, name) {
-    return text.replace(name, '<span style="text-decoration: underline">' + name + '</span>')
+function appendPubs(data) {
+  data.forEach(function(e) {
+    if (!e.bibtex) e.bibtex = "";
+    if (!e.doi) e.doi = "";
+    publist.append(
+      formatPub(
+        "" + e.title, "" + e.authors, "" + e.document, "" + e.source,
+        "" + e.date, "" + e.type, "" + e.bibtex, "" + e.doi, "" + e.realDate.getFullYear() )
+    );
+  });
+}
+
+
+function showPubs(year) {
+  console.log('selecting pubs year ' + year);
+
+  if (typeof(pubs_aj) === 'undefined' || pubs_aj.length > 0) {
+    return;
   }
 
-  function findMyName(authors) {
-    authors = swapNameAndBoldify(authors, "C. Velardo")
-    authors = swapNameAndBoldify(authors, "C Velardo")
-    authors = swapNameAndBoldify(authors, "Carmelo Velardo")
-    authors = swapNameAndBoldify(authors, "Carmelo, Velardo")
-    authors = swapNameAndBoldify(authors, "Velardo C.")
-    authors = swapNameAndBoldify(authors, "Velardo C")
-    authors = swapNameAndBoldify(authors, "Velardo Carmelo")
-    authors = swapNameAndBoldify(authors, "Velardo, Carmelo")
-    return authors
+  if (year == null) {
+    $('[year]').show(400)
+  } else {
+    $('li[year][year="'+year+'"]').show(400)
+    $('li[year][year!="'+year+'"]').hide(400)
   }
 
-  function formatPub(title, authors, link, where, when, type2, bibtex, doi) {
-    var type = type2;
-    if (type2 == 'report') type = "paperclip";
-    if (type2 == 'conference') type = "file-text-o";
-    if (type2 == 'letter') type = "envelope-o";
-    if (type2 == 'journal') type = "university";
-    if (type2 == 'invited_presentation') type = "file-powerpoint-o";
-    if (type2 == 'other') type = "file-image-o"
-    return '<li class="row-list"><i title="'+ type2 +'" class="fa-li fa fa-' + type + '"></i>'+
-    '<span class="pub"><name>' + title + '</name><br/>'+
-    '<authors>' + findMyName(authors) + '</authors><br/>'+
-    '<where>' + where + '</where> - <when>' + when + '</when>'+
-    (link != "" ? ' - <a href="' + link + '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
-    (bibtex != "" ? ' - <a href="' + bibtex + '" target="_blank"><span style="font-size:small">bib</span></a>' : "") +
-    (doi != "" ? ' - <a href="' + doi + '" target="_blank"><span style="font-size:small">doi</span></a>' : "") +
-    '</span>'+
-    '</li>';
-  }
+  $("li[id^=y_]").css("font-weight","");
+  $('li#y_'+year).css("font-weight","Bold");
+}
 
-  function formatProj(name, funding, where, collaborators, description, link) {
+var pubs_aj = [];
+var publist;
 
-    return '<li class="row-list"><i class="fa-li fa fa-sitemap"></i>'+
-    '<span class="pub"><name>' + name + '</name><br/>'+
-    '<i class="fa fa-group"></i> <authors>' + collaborators + '</authors><br/>'+
-    '<where><i class="fa fa-university"></i> ' + where + '</where>'+  (funding != "" ? ' - <when><i class="fa fa-money"></i> ' + funding + '</when>' : '') +
-    (link != "" ? ' - <a href="' + link + '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") + "<br/>" +"<br/>" +
-    '<description>' + description + '</description><br/>'+
-    '</span>'+
-    '</li>';
-  }
 
-  $(document).ready(
-    function() {
-      var pubs_aj = $.getJSON("pubs.json")
-      .done(function(data){
-        console.log( "done loading publications -- " );
-        var publist = $("#pub-list");
-        data.forEach(function(e) {
-          if (!e.bibtex) e.bibtex = ""
-          if (!e.doi) e.doi = ""
-          publist.append(
-            formatPub(""+e.title, ""+e.authors, ""+e.document, ""+e.source, ""+e.date, ""+e.type, ""+e.bibtex, ""+e.doi)
-          );
-        });
+$(document).ready(function() {
+  pubs_aj = $.getJSON("pubs.json")
+    .done(function(data) {
+      console.log("done loading publications -- ");
 
-      })
-      .fail(function() {
-        console.log( "error loading publications -- " );
+      publist = $("#pub-list");
+
+      data.forEach(function(e) {
+        e.realDate = (new Date(e.date));
       });
 
-      var proj_aj = $.getJSON("projects.json")
-      .done(function(data){
-        console.log( "done loading projects -- " );
-        var projlist = $("#proj-list");
-        data.forEach(function(e) {
-          projlist.append(
-            formatProj(""+e.name, ""+e.funding, ""+e.where, ""+e.collaborators, ""+e.description, ""+e.link)
-          );
-        });
 
-      })
-      .fail(function() {
-        console.log( "error loading projects -- " );
+      appendPubs(data);
+
+      // Create the navigation bar on top of the publication list
+      var years = [];
+      var yearsCount = []
+      data.forEach(function(e) {
+        years.push(e.realDate.getFullYear());
       });
 
+      for (var i = 0; i < years.length; i++) {
+        yearsCount[years[i]] = 1 + (yearsCount[years[i]] || 0);
+      }
 
+      years = Object.keys(yearsCount);
+
+      var outputList = ''
+      years.forEach(function(e) {
+         outputList+= '<li id="y_'+e+'" onclick="showPubs('+e+')">'+e+'</li>';
+      })
+      outputList += '<li id="y_null" onclick="showPubs(null)">All</li>';
+
+      var pub_year = $('#pub_year');
+      pub_year.append(outputList);
+
+      $('li#y_'+years[years.length-1]).click();
+
+    })
+    .fail(function() {
+      console.log("error loading publications -- ");
     });
-    </script>
+
+  var proj_aj = $.getJSON("projects.json")
+    .done(function(data) {
+      console.log("done loading projects -- ");
+      var projlist = $("#proj-list");
+      data.forEach(function(e) {
+        projlist.append(
+          formatProj(
+            "" + e.name, "" + e.funding, "" + e.where, "" + e.collaborators,
+            "" + e.description, "" + e.link )
+        );
+      });
+    })
+    .fail(function() {
+      console.log("error loading projects -- ");
+    });
+});
+</script>
 
 
     <section id="contact">
