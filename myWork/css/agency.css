@@ -659,6 +659,8 @@ aside.clients img {
   list-style-type: none;
   margin: 0 10px 0 10px;
   padding: 0;
+  cursor: pointer;
+  text-decoration: underline !important;
   display: inline;
 }
 
