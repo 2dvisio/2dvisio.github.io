@@ -1,4 +1,14 @@
 [
+  {
+  "authors": "Delaram Jarchi, Dario Salvi, Carmelo Velardo, Adam Mahdi, Lionel Tarassenko, David. A. Clifton",
+  "type": "conference",
+  "source": "IEEE Conference on Biomedical and Health Informatics (BHI) 2018 and the IEEE Conference on Body Sensor Networks (BSN)",
+  "title": "Estimation of HRV and SpO2 from Wrist-Worn Commercial Sensors for Clinical Settings",
+  "date": "March 2018",
+  "document":"https://bhi-bsn.embs.org/2018/",
+  "bibtex":"",
+  "doi": ""
+},
 {
   "authors": "Andrew J Farmer, Veronika Williams, Carmelo Velardo, Syed Ahmar Shah, Ly-Mee Yu, Heather Rutter, Louise Jones, Nicola Williams, Carl Heneghan, Jonathan Price, Maxine Hardinge, Lionel Tarassenko",
   "type": "journal",
