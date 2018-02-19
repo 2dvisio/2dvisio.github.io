@@ -1,5 +1,15 @@
 [
   {
+  "authors": "Lucy Mackillop, Jane Elizabeth Hirst, Katy Jane Bartlett, Jacqueline Susan Birks, Lei Clifton, Andrew J Farmer, Oliver Gibson, Yvonne Kenworthy, Jonathan Cummings Levy, Lise Loerup, Oliver Rivero Arias, Wai-Kit Ming, Carmelo Velardo, Lionel Tarassenko",
+  "type": "journal",
+  "source": "Journal of Medical Internet Research",
+  "title": "A randomized controlled trial to compare the efficacy of a smartphone-based blood glucose management system with standard clinic care in women with gestational diabetes Short Title: Technology for Remote Evaluation and Treatment of GDM: TREAT-GDM",
+  "date": "February 2018",
+  "document":"",
+  "bibtex":"",
+  "doi": ""
+},
+{
   "authors": "Delaram Jarchi, Dario Salvi, Carmelo Velardo, Adam Mahdi, Lionel Tarassenko, David. A. Clifton",
   "type": "conference",
   "source": "IEEE Conference on Biomedical and Health Informatics (BHI) 2018 and the IEEE Conference on Body Sensor Networks (BSN)",
