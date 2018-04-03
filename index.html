@@ -161,11 +161,11 @@
             <td id="t0202"></td>
             <td id="t0203"></td>
             <td id="t0204"></td>
-            <td id="t0205"></td>
+            <td id="t0205">T</td>
             <td id="t0206"></td>
             <td id="t0207"></td>
             <td id="t0208"></td>
-            <td id="t0209">T</td>
+            <td id="t0209"></td>
             <td id="t0210"></td>
             <td id="t0211"></td>
             <td id="t0212">h</td>
@@ -177,11 +177,11 @@
             <td id="t0302">R</td>
             <td id="t0303"></td>
             <td id="t0304"></td>
-            <td id="t0305"></td>
+            <td id="t0305">w</td>
             <td id="t0306"></td>
             <td id="t0307"></td>
             <td id="t0308"></td>
-            <td id="t0309">w</td>
+            <td id="t0309"></td>
             <td id="t0310"></td>
             <td id="t0311"></td>
             <td id="t0312">o</td>
@@ -193,11 +193,11 @@
             <td id="t0402">e</td>
             <td id="t0403"></td>
             <td id="t0404"></td>
-            <td id="t0405"></td>
+            <td id="t0405">i</td>
             <td id="t0406"></td>
             <td id="t0407"></td>
             <td id="t0408"></td>
-            <td id="t0409">i</td>
+            <td id="t0409"></td>
             <td id="t0410"></td>
             <td id="t0411"></td>
             <td id="t0412">t</td>
@@ -209,11 +209,11 @@
             <td id="t0502">s</td>
             <td id="t0503"></td>
             <td id="t0504"></td>
-            <td id="t0505"></td>
+            <td id="t0505">t</td>
             <td id="t0506"></td>
             <td id="t0507"></td>
             <td id="t0508"></td>
-            <td id="t0509">t</td>
+            <td id="t0509"></td>
             <td id="t0510"></td>
             <td id="t0511"></td>
             <td id="t0512">o</td>
@@ -225,11 +225,11 @@
             <td id="t0602">e</td>
             <td id="t0603"></td>
             <td id="t0604"></td>
-            <td id="t0605"></td>
+            <td id="t0605">t</td>
             <td id="t0606"></td>
             <td id="t0607"></td>
             <td id="t0608"></td>
-            <td id="t0609">t</td>
+            <td id="t0609"></td>
             <td id="t0610">F</td>
             <td id="t0611"></td>
             <td id="t0612">g</td>
@@ -241,11 +241,11 @@
             <td id="t0702" class="visible"><a href="myWork/">a</a></td>
             <td id="t0703" class="visible">r</td>
             <td id="t0704" class="visible">m</td>
-            <td id="t0705" class="visible">e</td>
+            <td id="t0705" class="visible"><a target="_blank" href="http://www.twitter.com/2dvisio/">e</a></td>
             <td id="t0706" class="visible">l</td>
             <td id="t0707" class="visible">o</td>
             <td id="t0708" class="visible">V</td>
-            <td id="t0709" class="visible"><a target="_blank" href="http://www.twitter.com/2dvisio/">e</a></td>
+            <td id="t0709" class="visible">e</td>
             <td id="t0710" class="visible"><a target="_blank" href="http://www.flickr.com/photos/2dvisio">l</a></td>
             <td id="t0711" class="visible">a</td>
             <td id="t0712" class="visible"><a target="_blank" href="http://www.flickr.com/photos/2dvisio">r</a></td>
@@ -257,11 +257,11 @@
             <td id="t0802">r</td>
             <td id="t0803"></td>
             <td id="t0804"></td>
-            <td id="t0805"></td>
+            <td id="t0805">r</td>
             <td id="t0806"></td>
             <td id="t0807"></td>
             <td id="t0808"></td>
-            <td id="t0809">r</td>
+            <td id="t0809"></td>
             <td id="t0810">i</td>
             <td id="t0811"></td>
             <td id="t0812">a</td>
@@ -373,38 +373,21 @@
       return o;
     }
 
+    function enDis(NUMBER) {
+      DisableColumn(NUMBER);
+      $("#t07" + NUMBER).hover(function() {
+        EnableColumn(NUMBER)
+      }, function() {
+        DisableColumn(NUMBER)
+      });
+    };
 
-    $("#t0702").hover(function() {
-      EnableColumn('2')
-    }, function() {
-      DisableColumn('2')
-    });
-    $("#t0709").hover(function() {
-      EnableColumn('9')
-    }, function() {
-      DisableColumn('9')
-    });
-    $("#t0710").hover(function() {
-      EnableColumn('10')
-    }, function() {
-      DisableColumn('10')
-    });
-    $("#t0712").hover(function() {
-      EnableColumn('12')
-    }, function() {
-      DisableColumn('12')
-    });
-    $("#t0714").hover(function() {
-      EnableColumn('14')
-    }, function() {
-      DisableColumn('14')
-    });
+    enDis("02");
+    enDis("05");
+    enDis("10");
+    enDis("12");
+    enDis("14");
 
-    DisableColumn('2');
-    DisableColumn('9');
-    DisableColumn('10');
-    DisableColumn('12');
-    DisableColumn('14');
 
 
     var backgrounds = [
