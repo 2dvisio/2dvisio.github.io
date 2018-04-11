@@ -1,5 +1,25 @@
 [
   {
+  "authors": "Dario Salvi, Carmelo Velardo, Jamieson Brynes, Lionel Tarassenko",
+  "title": "An optimised algorithm for accurate steps counting from smart-phone accelerometry",
+  "type": "conference",
+  "source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
+  "date": "July 2018",
+  "document":"",
+  "bibtex":"",
+  "doi": ""
+},
+{
+"authors": "Johanna O'Donnell, Carmelo Velardo, Syed Ahmar Shah, Reza Khorshidi, Dario Salvi, Kazem Rahimi, Lionel Tarassenko",
+"type": "conference",
+"source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
+"title": "Physical Activity and Sleep Analysis of Heart Failure Patients using Multi-sensor Patches",
+"date": "July 2018",
+"document":"",
+"bibtex":"",
+"doi": ""
+},
+{
   "authors": "Lucy Mackillop, Jane Elizabeth Hirst, Katy Jane Bartlett, Jacqueline Susan Birks, Lei Clifton, Andrew J Farmer, Oliver Gibson, Yvonne Kenworthy, Jonathan Cummings Levy, Lise Loerup, Oliver Rivero Arias, Wai-Kit Ming, Carmelo Velardo, Lionel Tarassenko",
   "type": "journal",
   "source": "JMIR mHealth and uHealth",
