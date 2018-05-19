@@ -1,13 +1,23 @@
 [
   {
-  "authors": "Dario Salvi, Carmelo Velardo, Jamieson Brynes, Lionel Tarassenko",
-  "title": "An optimised algorithm for accurate steps counting from smart-phone accelerometry",
-  "type": "conference",
-  "source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
-  "date": "July 2018",
+  "authors": "Alexandra Cairns, Katherine Tucker, Paul Leeson, Lucy Mackillop, Mauro Santos, Carmelo Velardo, Dario Salvi, Sam Mort, Jill Mollison, Lionel Tarassenko, Richard McManus",
+  "title": " Self-management of postnatal hypertension: the SNAP-HT trial",
+  "type": "journal",
+  "source":"Hypertension - American Heart Association",
+  "date": "May 2018",
   "document":"",
   "bibtex":"",
   "doi": ""
+},
+{
+"authors": "Dario Salvi, Carmelo Velardo, Jamieson Brynes, Lionel Tarassenko",
+"title": "An optimised algorithm for accurate steps counting from smart-phone accelerometry",
+"type": "conference",
+"source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
+"date": "July 2018",
+"document":"",
+"bibtex":"",
+"doi": ""
 },
 {
 "authors": "Johanna O'Donnell, Carmelo Velardo, Syed Ahmar Shah, Reza Khorshidi, Dario Salvi, Kazem Rahimi, Lionel Tarassenko",
