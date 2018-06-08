@@ -1,9 +1,19 @@
 [
   {
   "authors": "Alexandra Cairns, Katherine Tucker, Paul Leeson, Lucy Mackillop, Mauro Santos, Carmelo Velardo, Dario Salvi, Sam Mort, Jill Mollison, Lionel Tarassenko, Richard McManus",
-  "title": " Self-management of postnatal hypertension: the SNAP-HT trial",
+  "title": "Self-management of postnatal hypertension: the SNAP-HT trial",
   "type": "journal",
   "source":"Hypertension - American Heart Association",
+  "date": "May 2018",
+  "document":"",
+  "bibtex":"",
+  "doi": ""
+},
+{
+  "authors": "Rouyard T, Leal JL, Baskerville R, Velardo C, Salvi D, Gray AG",
+  "title": "Nudging people with Type 2 diabetes towards better self-management through personalised risk communication: a pilot randomised controlled trial in primary care",
+  "type": "journal",
+  "source":"Endocrinology, Diabetes and Metabolism",
   "date": "May 2018",
   "document":"",
   "bibtex":"",
