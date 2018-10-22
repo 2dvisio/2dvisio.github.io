@@ -1,5 +1,15 @@
 [
-  {
+{
+  "authors": "Bhatia Meena, Mackillop Lucy, Bartlett Katy, Loerup Lise, Kenworthy Yvonne, Levy Jonathan, Farmer Andrew, Velardo Carmelo, Tarassenko Lionel, Hirst Jane",
+  "title": "Clinical Implications of the NICE 2015 Criteria for Gestational Diabetes Mellitus",
+  "type": "journal",
+  "source":"Journal of Clinical Medicine",
+  "date": "October 2018",
+  "document":"https://www.mdpi.com/2077-0383/7/10/376/htm",
+  "bibtex":"",
+  "doi": "https://doi.org/10.3390/JCM7100376"
+},
+{
   "authors": "Jamie Hartmann-Boyce, Paul Aveyard, Carmen Piernas, Constantinos Koshiaris, Carmelo Velardo, Dario Salvi, Susan A. Jebb",
   "title": "Cognitive and behavioural strategies for weight management in overweight adults: results from the Oxford Food and Activity Behaviours (OxFAB) cohort study",
   "type": "journal",
@@ -10,14 +20,14 @@
   "doi": "https://doi.org/10.1371/journal.pone.0202072"
 },
 {
-"authors": "Alexandra Cairns, Katherine Tucker, Paul Leeson, Lucy Mackillop, Mauro Santos, Carmelo Velardo, Dario Salvi, Sam Mort, Jill Mollison, Lionel Tarassenko, Richard McManus",
-"title": "Self-management of postnatal hypertension: the SNAP-HT trial",
-"type": "journal",
-"source":"Hypertension - American Heart Association",
-"date": "2 July 2018",
-"document":"https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.118.10911",
-"bibtex":"",
-"doi": "https://doi.org/10.1161/HYPERTENSIONAHA.118.10911"
+  "authors": "Alexandra Cairns, Katherine Tucker, Paul Leeson, Lucy Mackillop, Mauro Santos, Carmelo Velardo, Dario Salvi, Sam Mort, Jill Mollison, Lionel Tarassenko, Richard McManus",
+  "title": "Self-management of postnatal hypertension: the SNAP-HT trial",
+  "type": "journal",
+  "source":"Hypertension - American Heart Association",
+  "date": "2 July 2018",
+  "document":"https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.118.10911",
+  "bibtex":"",
+  "doi": "https://doi.org/10.1161/HYPERTENSIONAHA.118.10911"
 },
 {
   "authors": "Rouyard T, Leal JL, Baskerville R, Velardo C, Salvi D, Gray AG",
@@ -30,24 +40,24 @@
   "doi": "https://doi.org/10.1002/edm2.22"
 },
 {
-"authors": "Dario Salvi, Carmelo Velardo, Jamieson Brynes, Lionel Tarassenko",
-"title": "An optimised algorithm for accurate steps counting from smart-phone accelerometry",
-"type": "conference",
-"source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
-"date": "July 2018",
-"document":"",
-"bibtex":"",
-"doi": ""
+  "authors": "Dario Salvi, Carmelo Velardo, Jamieson Brynes, Lionel Tarassenko",
+  "title": "An optimised algorithm for accurate steps counting from smart-phone accelerometry",
+  "type": "conference",
+  "source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
+  "date": "July 2018",
+  "document":"",
+  "bibtex":"",
+  "doi": ""
 },
 {
-"authors": "Johanna O'Donnell, Carmelo Velardo, Syed Ahmar Shah, Reza Khorshidi, Dario Salvi, Kazem Rahimi, Lionel Tarassenko",
-"type": "conference",
-"source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
-"title": "Physical Activity and Sleep Analysis of Heart Failure Patients using Multi-sensor Patches",
-"date": "July 2018",
-"document":"",
-"bibtex":"",
-"doi": ""
+  "authors": "Johanna O'Donnell, Carmelo Velardo, Syed Ahmar Shah, Reza Khorshidi, Dario Salvi, Kazem Rahimi, Lionel Tarassenko",
+  "type": "conference",
+  "source":"EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
+  "title": "Physical Activity and Sleep Analysis of Heart Failure Patients using Multi-sensor Patches",
+  "date": "July 2018",
+  "document":"",
+  "bibtex":"",
+  "doi": ""
 },
 {
   "authors": "Lucy Mackillop, Jane Elizabeth Hirst, Katy Jane Bartlett, Jacqueline Susan Birks, Lei Clifton, Andrew J Farmer, Oliver Gibson, Yvonne Kenworthy, Jonathan Cummings Levy, Lise Loerup, Oliver Rivero Arias, Wai-Kit Ming, Carmelo Velardo, Lionel Tarassenko",
