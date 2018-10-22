@@ -280,14 +280,14 @@ function swapNameAndBoldify(text, name) {
 }
 
 function findMyName(authors) {
-  authors = swapNameAndBoldify(authors, "C. Velardo");
-  authors = swapNameAndBoldify(authors, "C Velardo");
-  authors = swapNameAndBoldify(authors, "Carmelo Velardo");
-  authors = swapNameAndBoldify(authors, "Carmelo, Velardo");
-  authors = swapNameAndBoldify(authors, "Velardo C.");
-  authors = swapNameAndBoldify(authors, "Velardo C");
   authors = swapNameAndBoldify(authors, "Velardo Carmelo");
   authors = swapNameAndBoldify(authors, "Velardo, Carmelo");
+  authors = swapNameAndBoldify(authors, "Carmelo Velardo");
+  authors = swapNameAndBoldify(authors, "Carmelo, Velardo");
+  authors = swapNameAndBoldify(authors, "C. Velardo");
+  authors = swapNameAndBoldify(authors, "C Velardo");
+  authors = swapNameAndBoldify(authors, "Velardo C.");
+  authors = swapNameAndBoldify(authors, "Velardo C");
   return authors;
 }
 
