@@ -25,3 +25,10 @@ His recent research aims at the use of mobile-Health solutions to support patien
 (88 words)
 Carmelo is Senior researcher in Digital Health at the Institute of Biomedical Engineering and Departmental Lecturer at the Department of Engineering Science, University of Oxford, United Kingdom. His work over the past 8 years has spanned the topics of signal processing for Biometrics and Biomedical applications. His current research focusses on the use of mobile-Health solutions to support patients suffering from chronic conditions and the clinicians looking after them. His work has been used in several randomised controlled trials, and has also been implemented in several NHS Trusts.
 
+
+
+===
+(88 words)
+Carmelo is the Expert in residence at LAB10x where he accompanies the successful teams through their path to growth and where he acts as point of contact between LAB10x and the University of Oxford and the Oxford University Hospitals NHS Foundation Trust.
+In his role as Senior research fellow at Sensyne Health he oversees the R&D and the development of machine learning algorithms to support the Digital health products.
+He has been doing research in companies such as Motorola and Panasonic, and universities such as ParisTech and the University of Oxford for more than 10 years, 7 of which spent in Digital health applied to the management of chronic conditions.
