@@ -29,6 +29,16 @@ Carmelo is Senior researcher in Digital Health at the Institute of Biomedical En
 
 ===
 (88 words)
-Carmelo is the Expert in residence at LAB10x where he accompanies the successful teams through their path to growth and where he acts as point of contact between LAB10x and the University of Oxford and the Oxford University Hospitals NHS Foundation Trust.
+Carmelo is the Expert in residence at LAB10x where he accompanies the successful teams through their path to growth and where he acts as point of contact between LAB10x, the University of Oxford, and the Oxford University Hospitals NHS Foundation Trust.
 In his role as Senior research fellow at Sensyne Health he oversees the R&D and the development of machine learning algorithms to support the Digital health products.
 He has been doing research in companies such as Motorola and Panasonic, and universities such as ParisTech and the University of Oxford for more than 10 years, 7 of which spent in Digital health applied to the management of chronic conditions.
+
+
+
+===
+(88 words)
+Carmelo has over ten years' experience in research and development, biometrics, data science, and digital health. He has an MSc in Computer Engineering from Polytechnic of Turin, and a PhD in Signal Processing from Telecom ParisTech.
+For seven years, as Senior Researcher and Lecturer at the Department of Engineering Science of the University of Oxford, he focussed on digital health applied to the management of chronic conditions such as COPD, diabetes, heart failure, and has collaborated with hundreds among consultants, GPs, nurses, midwives, and especially patients.
+He is now Senior research fellow at Sensyne Health where he oversees the R&D and development of machine learning algorithms to support the Digital health products. He co-authored more than 50 scientific articles.
+
+

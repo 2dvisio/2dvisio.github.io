@@ -1,5 +1,15 @@
 [
   {
+    "authors": "E. Finnegan, M. Villarroel, C. Velardo, L. Tarassenko",
+    "title": "Automated method for detecting and reading seven-segment digits from images of blood glucose metres and blood pressure monitors",
+    "type": "journal",
+    "source": "Journal of Medical Engineering & Technology",
+    "date": "2019",
+    "document": "https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1673844?needAccess=true#aHR0cHM6Ly93d3cudGFuZGZvbmxpbmUuY29tL2RvaS9wZGYvMTAuMTA4MC8wMzA5MTkwMi4yMDE5LjE2NzM4NDQ/bmVlZEFjY2Vzcz10cnVlQEBAMA==",
+    "bibtex": "https://www.tandfonline.com/doi/citedby/10.1080/03091902.2019.1673844?scroll=top&needAccess=true",
+    "doi": "https://doi.org/10.1080/03091902.2019.1673844"
+  },
+  {
     "authors": "Maxine Whelan, Carmelo Velardo, Heather Rutter, Lionel Tarassenko, Andrew J Farmer",
     "title": "Feasibility of mood monitoring over one year for people with chronic obstructive pulmonary disease using an mHealth system: a retrospective analysis",
     "type": "journal",
