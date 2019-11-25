@@ -15,17 +15,17 @@
     "type": "journal",
     "source": "JMIR mHealth and uHealth",
     "date": "2019",
-    "document": "[In press]",
-    "bibtex": "",
-    "doi": ""
+    "document": "https://mhealth.jmir.org/2019/11/e14946/pdf",
+    "bibtex": "https://mhealth.jmir.org/article/export/bib/mhealth_v7i11e14946",
+    "doi": "http://dx.doi.org/10.2196/14946"
   },
   {
     "authors": "Johanna Ernst, Karl Smith-Byrne, Carmelo Velardo, Nathalie Conrad, Gholamreza Salimi-Khorshidi, Aiden Doherty, Terence Dwyer, Lionel Tarassenko, Kazem Rahimi",
     "title": "Self-reported and objectively-measured physical activity in people with and without chronic heart failure: a UK Biobank analysis",
     "type": "journal",
-    "source": "Heart",
-    "date": "March 2019",
-    "document": "[In press]",
+    "source": "Open heart",
+    "date": "2019",
+    "document": "[Under review]",
     "bibtex": "",
     "doi": ""
   },
