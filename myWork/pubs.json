@@ -1,5 +1,25 @@
 [
   {
+    "authors": "Andrew J. Farmer, Julie Allen, Y.Kiera Bartlett, Peter Bower, Yuan Chi, David P. French, Bernard Gudgin, Emily Holmes, Rob Horne, Dyfrig A. Hughes, Cassandra Kenning, Louise Locock, Jennifer McSharry, Lisa Miles, Nikki Newhouse, Rustam Rea, Jenny Riga, Lionel Tarassenko, Carmelo Velardo, Nicola Williams, Veronika Williams, Ly-Mee Yu",
+    "title": "Supporting people with type 2 diabetes in effective use of their medicine through mobile health technology integrated with clinical care (SuMMiT-D Feasibility): a randomised feasibility trial protocol",
+    "type": "journal",
+    "source": "BMJ Open",
+    "date": "2019",
+    "document": "[In press]",
+    "bibtex": "",
+    "doi": "http://dx.doi.org/10.1136/bmjopen-2019-033504"
+  },
+  {
+    "authors": "Malacrino Stefano, Carmelo Velardo, Giuseppe Rizzo",
+    "title": "A Dilated CNN Approach for Coding of Clinical Notes",
+    "type": "journal",
+    "source": "ACM Transactions on Computing for Healthcare",
+    "date": "2019",
+    "document": "[Under review]",
+    "bibtex": "",
+    "doi": ""
+  },
+  {
     "authors": "E. Finnegan, M. Villarroel, C. Velardo, L. Tarassenko",
     "title": "Automated method for detecting and reading seven-segment digits from images of blood glucose metres and blood pressure monitors",
     "type": "journal",
@@ -25,7 +45,7 @@
     "type": "journal",
     "source": "Open heart",
     "date": "2019",
-    "document": "[Under review]",
+    "document": "[In press]",
     "bibtex": "",
     "doi": ""
   },
