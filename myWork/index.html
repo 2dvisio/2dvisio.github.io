@@ -321,6 +321,9 @@ function appendPubs(data) {
   data.forEach(function(e) {
     if (!e.bibtex) e.bibtex = "";
     if (!e.doi) e.doi = "";
+
+    if (!e.bibtex && e.doi) e.bibtex = "https://www.doi2bib.org/bib/" + e.doi;
+
     publist.append(
       formatPub(
         "" + e.title, "" + e.authors, "" + e.document, "" + e.source,
