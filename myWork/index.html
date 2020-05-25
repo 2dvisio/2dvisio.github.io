@@ -287,6 +287,12 @@ function formatPub(title, authors, link, where, when, type2, bibtex, doi, year) 
   if (type2 == "invited_presentation") type = "file-powerpoint-o";
   if (type2 == "other") type = "file-image-o";
 
+  var trimmedDoi = ""
+  if (doi != "") {
+    const doi_arr = doi.replace(/^\/+|\/+$/g, '').split('/');
+    trimmedDoi = doi_arr[doi_arr.length-2] + "/" + doi_arr[doi_arr.length-1]
+  }
+
   return (
     '<li year="'+ year +'" class="row-list" date="' + when + '">'+
     '<i title="' + type2 + '" class="fa-li fa fa-' + type + '"></i>' +
@@ -295,8 +301,8 @@ function formatPub(title, authors, link, where, when, type2, bibtex, doi, year) 
     "<where>" + where + "</where> - <when>" + when + "</when>" +
     (link != "" ? ' - <a href="' + link +
         '" target="_blank"><span class="fa fa-file-pdf-o" ></span></a>' : "") +
-    (bibtex != "" ? ' - <a href="' + bibtex +
-        '" target="_blank"><span style="font-size:small">bib</span></a>' : "") +
+    (bibtex != "" ? ' - <a href="' + bibtex + '" target="_blank"><span style="font-size:small">bib</span></a>' : 
+                    (doi != "" ? ' - <a href="https://www.doi2bib.org/bib/' + trimmedDoi + '" target="_blank"><span style="font-size:small">bib</span></a>' : "")) +
     (doi != "" ? ' - <a href="' + doi +
         '" target="_blank"><span style="font-size:small">doi</span></a>' : "") +
     "</span></li>" );
