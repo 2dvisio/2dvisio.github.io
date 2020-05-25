@@ -10,11 +10,21 @@
     "doi": "https://doi.org/10.1186/s40814-020-00612-2"
   },
   {
-    "authors": "Greig Dougall, Marloes Franssen, Katherine Louise Tucker, Ly-Mee Yu, Lisa Hinton, Oliver Rivero-Arias, Lucy Abel, Julie Allen, Rebecca Jane Band, Alison Chisholm, Carole Crawford, Marcus Green, Sheila Greenfield, James Hodgkinson, Paul Leeson, Christine McCourt, Lucy MacKillop, Alecia Nickless, Jane Sandall, Mauro Santos, Lionel Tarassenko, Carmelo Velardo, Hannah Wilson, Lucy Yardley,, Lucy Chappell, Richard J McManus",
+    "authors": "Johanna Ernst, Karl Smith-Byrne, Carmelo Velardo, Nathalie Conrad, Gholamreza Salimi-Khorshidi, Aiden Doherty, Terence Dwyer, Lionel Tarassenko, Kazem Rahimi",
+    "title": "Self-reported and objectively measured physical activity in people with and without chronic heart failure: UK Biobank analysis",
+    "type": "journal",
+    "source": "Open Heart",
+    "date": "19 February 2020",
+    "document": "https://openheart.bmj.com/content/openhrt/7/1/e001099.full.pdf",
+    "bibtex": "https://openheart.bmj.com/highwire/citation/140491/bibtext",
+    "doi": "https://doi.org/10.1136/openhrt-2019-001099"
+  },
+  {
+    "authors": "Greig Dougall, Marloes Franssen, Katherine Louise Tucker, Ly-Mee Yu, Lisa Hinton, Oliver Rivero-Arias, Lucy Abel, Julie Allen, Rebecca Jane Band, Alison Chisholm, Carole Crawford, Marcus Green, Sheila Greenfield, James Hodgkinson, Paul Leeson, Christine McCourt, Lucy MacKillop, Alecia Nickless, Jane Sandall, Mauro Santos, Lionel Tarassenko, Carmelo Velardo, Hannah Wilson, Lucy Yardley, Lucy Chappell, Richard J McManus",
     "title": "Blood pressure monitoring in high-risk pregnancy to improve the detection and monitoring of hypertension (the BUMP 1 and 2 trials): protocol for two linked randomised controlled trials",
     "type": "journal",
     "source": "BMJ Open",
-    "date": "30 December 2019",
+    "date": "23 Jan 2020",
     "document": "https://bmjopen.bmj.com/content/bmjopen/10/1/e034593.full.pdf",
     "bibtex": "https://bmjopen.bmj.com/highwire/citation/173463/bibtext",
     "doi": "https://doi.org/10.1136/bmjopen-2019-034593"
@@ -34,9 +44,8 @@
     "title": "Supporting people with type 2 diabetes in effective use of their medicine through mobile health technology integrated with clinical care (SuMMiT-D Feasibility): a randomised feasibility trial protocol",
     "type": "journal",
     "source": "BMJ Open",
-    "date": "2019",
-    "document": "[In press]",
-    "bibtex": "",
+    "date": "29 December 2019",
+    "document": "https://bmjopen.bmj.com/content/bmjopen/9/12/e033504.full.pdf",
     "doi": "http://dx.doi.org/10.1136/bmjopen-2019-033504"
   },
   {
@@ -45,16 +54,14 @@
     "type": "journal",
     "source": "ACM Transactions on Computing for Healthcare",
     "date": "2019",
-    "document": "[Under review]",
-    "bibtex": "",
-    "doi": ""
+    "document": "[Under review]"
   },
   {
     "authors": "E. Finnegan, M. Villarroel, C. Velardo, L. Tarassenko",
     "title": "Automated method for detecting and reading seven-segment digits from images of blood glucose metres and blood pressure monitors",
     "type": "journal",
     "source": "Journal of Medical Engineering & Technology",
-    "date": "2019",
+    "date": " 4 November 2019",
     "document": "https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1673844?needAccess=true#aHR0cHM6Ly93d3cudGFuZGZvbmxpbmUuY29tL2RvaS9wZGYvMTAuMTA4MC8wMzA5MTkwMi4yMDE5LjE2NzM4NDQ/bmVlZEFjY2Vzcz10cnVlQEBAMA==",
     "bibtex": "https://www.tandfonline.com/doi/citedby/10.1080/03091902.2019.1673844?scroll=top&needAccess=true",
     "doi": "https://doi.org/10.1080/03091902.2019.1673844"
@@ -64,20 +71,10 @@
     "title": "Feasibility of mood monitoring over one year for people with chronic obstructive pulmonary disease using an mHealth system: a retrospective analysis",
     "type": "journal",
     "source": "JMIR mHealth and uHealth",
-    "date": "2019",
+    "date": "22 November 2019",
     "document": "https://mhealth.jmir.org/2019/11/e14946/pdf",
     "bibtex": "https://mhealth.jmir.org/article/export/bib/mhealth_v7i11e14946",
     "doi": "http://dx.doi.org/10.2196/14946"
-  },
-  {
-    "authors": "Johanna Ernst, Karl Smith-Byrne, Carmelo Velardo, Nathalie Conrad, Gholamreza Salimi-Khorshidi, Aiden Doherty, Terence Dwyer, Lionel Tarassenko, Kazem Rahimi",
-    "title": "Self-reported and objectively-measured physical activity in people with and without chronic heart failure: a UK Biobank analysis",
-    "type": "journal",
-    "source": "Open heart",
-    "date": "2019",
-    "document": "[In press]",
-    "bibtex": "",
-    "doi": ""
   },
   {
     "authors": "Bronwen E Warner, Carmelo Velardo, Dario Salvi, Kathryn Lafferty, Sarah Crosbie, William G Herrington, Richard Haynes",
@@ -96,7 +93,7 @@
     "source": "Journal of Clinical Medicine",
     "date": "October 2018",
     "document": "https://www.mdpi.com/2077-0383/7/10/376/htm",
-    "bibtex": "",
+    "bibtex": "https://www.doi2bib.org/bib/https://doi.org/10.3390/JCM7100376",
     "doi": "https://doi.org/10.3390/JCM7100376"
   },
   {
@@ -126,7 +123,6 @@
     "source": "Hypertension - American Heart Association",
     "date": "2 July 2018",
     "document": "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.118.10911",
-    "bibtex": "",
     "doi": "https://doi.org/10.1161/HYPERTENSIONAHA.118.10911"
   },
   {
@@ -145,9 +141,7 @@
     "type": "conference",
     "source": "EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
     "date": "July 2018",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/embc.2018.8513319"
   },
   {
     "authors": "Johanna O'Donnell, Carmelo Velardo, Syed Ahmar Shah, Reza Khorshidi, Dario Salvi, Kazem Rahimi, Lionel Tarassenko",
@@ -155,9 +149,7 @@
     "source": "EMBC 2018, 40th Annual IEEE Engineering in Medicine and Biology Society conference",
     "title": "Physical Activity and Sleep Analysis of Heart Failure Patients using Multi-sensor Patches",
     "date": "July 2018",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/embc.2018.8513594"
   },
   {
     "authors": "PamelaDyson,Jane Hirst, Katy Bartlett, Yvonne Kenworthy, Angela Hargreaves, Sophie Roberts, Leticia Bradbury, Carmelo Velardo, Susan Jebb, Lionel Tarassenko, Lucy Mackillop",
@@ -166,7 +158,6 @@
     "source": "Diabetes UK",
     "date": "March 2018",
     "document": "https://ora.ox.ac.uk/objects/uuid:aa307a59-ddbf-47d9-9bb3-217aeac724e1/download_file?file_format=pdf&safe_filename=GDM%2BPlus%2Babstract%2BMarch%2B2018.pdf&type_of_work=Conference+item",
-    "bibtex": "",
     "doi": " https://doi.org/10.1111/dme.50_13571"
   },
   {
@@ -185,9 +176,7 @@
     "source": "IEEE Conference on Biomedical and Health Informatics (BHI) 2018 and the IEEE Conference on Body Sensor Networks (BSN)",
     "title": "Estimation of HRV and SpO2 from Wrist-Worn Commercial Sensors for Clinical Settings",
     "date": "March 2018",
-    "document": "https://bhi-bsn.embs.org/2018/",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/BSN.2018.8329679"
   },
   {
     "authors": "Andrew J Farmer, Veronika Williams, Carmelo Velardo, Syed Ahmar Shah, Ly-Mee Yu, Heather Rutter, Louise Jones, Nicola Williams, Carl Heneghan, Jonathan Price, Maxine Hardinge, Lionel Tarassenko",
@@ -246,7 +235,6 @@
     "popup-publications": "http://m.bmjopen.bmj.com/content/6/3/e009702.full",
     "source": "Obstetrics and gynaecology",
     "document": "http://bmjopen.bmj.com/content/6/3/e009702.full.pdf",
-    "bibtex": "",
     "doi": "http://dx.doi.org/10.1136/bmjopen-2015-009702",
     "type": "journal"
   },
@@ -257,7 +245,6 @@
     "popup-publications": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7283541&tag=1",
     "source": "IEEE Journal of Biomedical and Health Informatics",
     "document": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7283541",
-    "bibtex": "",
     "doi": "http://dx.doi.org/10.1109/JBHI.2015.2483902",
     "type": "journal"
   },
@@ -268,7 +255,6 @@
     "popup-publications": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472616/",
     "source": "BMC Medical Informatics and Decision Making",
     "document": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472616/pdf/12911_2015_Article_171.pdf",
-    "bibtex": "",
     "doi": "http://dx.doi.org/10.1186%2Fs12911-015-0171-5",
     "type": "journal"
   },
@@ -279,7 +265,6 @@
     "popup-publications": "http://ehjqcco.oxfordjournals.org/content/early/2015/07/08/ehjqcco.qcv013",
     "source": "European Heart Journal - Quality of Care and Clinical Outcomes",
     "document": "http://ehjqcco.oxfordjournals.org/content/early/2015/07/08/ehjqcco.qcv013",
-    "bibtex": "",
     "doi": "http://dx.doi.org/10.1093/ehjqcco/qcv013",
     "type": "journal"
   },
@@ -290,7 +275,6 @@
     "popup-publications": "http://www.sciencedirect.com/science/article/pii/S1386505615000969",
     "source": "International Journal of Medical Informatics",
     "document": "http://www.sciencedirect.com/science/article/pii/S1386505615000969",
-    "bibtex": "",
     "doi": "http://doi:10.1016/j.ijmedinf.2015.05.003",
     "type": "journal"
   },
@@ -310,22 +294,14 @@
     "date": "November 2014",
     "authors": "Triantafyllidis, Andreas; Velardo, Carmelo; Shah, Syed Ahmar; Tarassenko, Lionel; Chantler, Tracey; Paton, Chris; Rahimi, Kazem",
     "title": "Supporting heart failure patients through personalized mobile health monitoring",
-    "source": "Mobihealth 2014, 4th International Conference on Wireless Mobile Communication and Healthcare",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "source": "Mobihealth 2014, 4th International Conference on Wireless Mobile Communication and Healthcare"
   },
   {
     "type": "conference",
     "date": "September 2014",
     "authors": "Velardo, Carmelo; Shah, Syed Ahmar; Gibson, Oliver John; Rutter, Heather; Farmer, Andrew; Tarassenko, Lionel",
     "title": "Automatic Generation of Personalised Alert Thresholds for Patients with COPD",
-    "source": "EUSIPCO 2014, 22nd European Signal Processing Conference, Lisbon, Portugal",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "source": "EUSIPCO 2014, 22nd European Signal Processing Conference, Lisbon, Portugal"
   },
   {
     "type": "conference",
@@ -333,10 +309,7 @@
     "authors": "Shah, Syed Ahmar; Velardo, Carmelo; Gibson, Oliver John; Rutter, Heather; Farmer, Andrew; Tarassenko, Lionel",
     "title": "Personalized Alerts for Patients with COPD Using Pulse Oximetry and Symptom Scores",
     "source": "EMBC 2014, IEEE Engineering in Medicine and Biology Conference, Chicago, USA",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/embc.2014.6944294"
   },
   {
     "type": "conference",
@@ -344,10 +317,7 @@
     "authors": "Korshunov, Pavel; Araimo, Claudia; De Simone, Francesca; Velardo, Carmelo; Dugelay, Jean-Luc; Ebrahimi, Touradj",
     "title": "Subjective study of privacy filters in video surveillance",
     "source": "MMSP 2012, IEEE International Workshop on Multimedia Signal Processing, Banff, Canada",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/MMSP.2012.6343472"
   },
   {
     "type": "conference",
@@ -355,10 +325,6 @@
     "authors": "Velardo, Carmelo; Dugelay, Jean-Luc",
     "title": "What can computer vision tell you about your weight?",
     "source": "EUSIPCO 2012, 20th European Signal Processing Conference, Bucharest, Romania",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
   },
   {
     "type": "conference",
@@ -366,10 +332,7 @@
     "authors": "Korshunov, Pavel; Araimo, Claudia; De Simone, Francesca; Velardo, Carmelo; Dugelay, Jean-Luc; Ebrahimi, Touradj",
     "title": "Evaluation of visual privacy filters impact on video surveillance intelligibility",
     "source": "QOMEX 2012, 4th International Workshop on Quality of Multimedia Experience, Yarra Valley, VIC, Australia",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/QoMEX.2012.6263883"
   },
   {
     "type": "conference",
@@ -377,10 +340,7 @@
     "authors": "Velardo, Carmelo; Dugelay, Jean-Luc",
     "title": "Improving identification by pruning: a case study on face recognition and body soft biometric",
     "source": "WIAMIS 2012, 13th International Workshop on Image Analysis for Multimedia Interactive Services, Dublin City University, Ireland",
-    "popup-publications": "",
-    "document": "",
-    "bibtex": "",
-    "doi": ""
+    "doi": "https://doi.org/10.1109/WIAMIS.2012.6226747"
   },
   {
     "type": "conference",
@@ -391,7 +351,7 @@
     "source": "ESPA 2011, IEEE 1st International Conference on Emerging Signal Processing Applications, Las Vegas, USA",
     "document": "http://www.eurecom.fr/en/publication/3539/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/3539.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1109/ESPA.2012.6152447%20"
+    "doi": "http://dx.doi.org/10.1109/ESPA.2012.6152447%20"
   },
   {
     "date": "November 2011",
@@ -402,7 +362,7 @@
     "html": "http://www.eurecom.fr/en/publication/3441/detail/real-time-extraction-of-body-soft-biometric-from-3d-videos?popup=1",
     "document": "http://www.eurecom.fr/en/publication/3441/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/3441.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1145/2072298.2072454",
+    "doi": "http://dx.doi.org/10.1145/2072298.2072454",
     "type": "conference"
   },
   {
@@ -414,7 +374,7 @@
     "html": "http://www.eurecom.fr/en/publication/3442/detail/synthetic-and-privacy-preserving-visualization-of-video-sensor-network-outputs?popup=1",
     "document": "http://www.eurecom.fr/en/publication/3442/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/3442.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1109/ICDSC.2011.6042938%20",
+    "doi": "http://dx.doi.org/10.1109/ICDSC.2011.6042938%20",
     "type": "conference"
   },
   {
@@ -426,7 +386,7 @@
     "html": "http://www.eurecom.fr/en/publication/3189/detail/weight-estimation-from-visual-body-appearance?popup=1",
     "document": "http://www.eurecom.fr/en/publication/3189/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/3189.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1109/BTAS.2010.5634540%20",
+    "doi": "http://dx.doi.org/10.1109/BTAS.2010.5634540%20",
     "type": "conference"
   },
   {
@@ -438,7 +398,7 @@
     "html": "http://www.eurecom.fr/en/publication/3185/detail/face-recognition-with-daisy-descriptors?popup=1",
     "document": "http://www.eurecom.fr/en/publication/3185/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/3185.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1145/1854229.1854249%20",
+    "doi": "http://dx.doi.org/10.1145/1854229.1854249%20",
     "type": "conference"
   },
   {
@@ -450,21 +410,19 @@
     "html": "http://www.eurecom.fr/en/publication/2888/detail/face-dynamics-for-biometric-people-recognition?popup=1",
     "document": "http://www.eurecom.fr/en/publication/2888/copyright?popup=1",
     "bibtex": "http://www.eurecom.fr/publication/2888.bib",
-    "doi": "http://www.eurecom.frhttp://dx.doi.org/10.1109/MMSP.2009.5293300%20",
+    "doi": "http://dx.doi.org/10.1109/MMSP.2009.5293300%20",
     "type": "conference"
   },
   {
     "authors": "Hirst, EJ; Loerup, L; Mackillop, L; Farmer, A; Kenworthy, Y; Bartlett, K; Velardo, C; Kevat, D A; Tarassenko, L; Levy, J C",
-    "doi": "10.1111/dme.13035",
+    "doi": "http://dx.doi.org/10.1111/dme.13035",
     "issn": "1464-5491",
     "type": "letter",
     "source": "Diabetic medicine : a journal of the British Diabetic Association",
     "date": "November 2015",
     "pmid": "26606543",
     "title": "Digital blood glucose monitoring could provide new objective assessments of blood glucose control in women with gestational diabetes",
-    "html": "http://www.ncbi.nlm.nih.gov/pubmed/26606543",
-    "document": "",
-    "bibtex": ""
+    "html": "http://www.ncbi.nlm.nih.gov/pubmed/26606543"
   },
   {
     "date": "January 2012",
@@ -490,45 +448,29 @@
   {
     "date": "March 2012",
     "authors": "Velardo, Carmelo; Dugelay, Jean-Luc",
-    "popup-publications": "",
     "title": "Real time extraction of body soft biometric for telemedicine",
     "source": "GTTI MMSP 2012, Thematic Meeting on Multimedia Signal Processing, Courmayeur, Italy",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
     "date": "16 May 2014",
     "authors": "Hardinge, Maxine; Rutter, Heather; Velardo, Carmelo; Williams, Veronika; Toms, Christy; Tarassenko, Lionel; Farmer, Andrew",
-    "popup-publications": "",
     "title": "Using a mobile health application to support self-management in COPD – development of alert thresholds derived from variability in self-reported and measured clinical variables",
     "source": "American Thoracic Society 2014 International Conference, San Diego",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
     "date": "16 May 2014",
     "authors": "Hardinge, Maxine; Rutter, Heather; Velardo, Carmelo; Williams, Veronika; Toms, Christy; Tarassenko, Lionel; Farmer, Andrew",
-    "popup-publications": "",
     "title": "Using a mobile health application to support self-management in COPD – a cohort feasibility study",
     "source": "American Thoracic Society 2014 International Conference, San Diego",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
     "date": "1 July 2013",
     "authors": "Tarassenko, Lionel; Velardo, Carmelo; Shah, Syed Ahmar; Gibson, Oliver John; Clifford, Gari; Heneghan, Carl; Rutter, Heather; Farmer, Andrew",
-    "popup-publications": "",
     "title": "m-Health for long-term management of COPD",
     "source": "Third Annual International Congress on Telehealth and Telecare, The King’s Fund, London",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
@@ -536,9 +478,6 @@
     "date": "June 2015",
     "source": "ADA 75th Scientific Sessions, Boston, MA, June 2015 (poster)",
     "authors": "Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
@@ -546,108 +485,69 @@
     "date": "October 2015",
     "source": "SOMANZ Annual Scientific Meeting, Melbourne, AUS, October 2015 (poster)",
     "authors": "Hirst, JE, Farmer, AJ, Loerup, L, Mackillop, LH, Levy, JC, Bartlett, KJ, Kenworthy, YM, Kevat, DA, Velardo, C, Tarassenko, L",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "other"
   },
   {
     "date": "2 July 2018",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "Mobile health for gestational diabetes management",
     "source": "Oxford Metabolic Health Symposium",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "22 June 2017",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "GDm-health: care for expecting mothers with gestational diabetes",
     "source": "UCL Seminar - Embedding innovation in the NHS: patient, practice and system perspectives",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "22 May 2017",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "EDGE: a collaboration of engineers, patients, doctors, nurses",
     "source": "UCL - TechSharing Seminar Series",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "7 November 2016",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "Digital health platforms and data integration at Oxford",
     "source": "NHS England Interoperability Summit",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "27 August 2015",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "mHealth service infrastructure for chronic conditions",
     "source": "Visit to Institute EURECOM",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "13 January 2015",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "mHealth: Opportunities for all",
     "source": "Bupa Innovation Showcase, Global mHypertension Workshop",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "13 October 2014",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "Towards a modular m-Health service infrastructure for chronic conditions",
     "source": "Digital Health Oxford ",
-    "html": "http://www.dhox.org",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "26 August 2014",
     "authors": "Velardo, Carmelo et al.",
-    "popup-publications": "",
     "title": "m-Health Service Infrastructure for Chronic Conditions",
     "source": "EMBC 2014, IEEE Engineering in Medicine and Biology Conference, Chicago, USA",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   },
   {
     "date": "13 March 2014",
     "authors": "Velardo, Carmelo",
-    "popup-publications": "",
     "title": "m-Health for chronic disease management",
     "source": "Visit to the Indian Institute of Science, arranged by the Foreign & Commonwealth Office",
-    "html": "",
-    "document": "",
-    "bibtex": "",
     "type": "invited_presentation"
   }
 ]
