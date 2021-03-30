@@ -1,5 +1,15 @@
 [
   {
+    "authors": "Yuan Chi, Carmelo Velardo, Julie Allen, Stephanie Robinson, Evgenia Riga, David Judge, Lionel Tarassenko, Andrew J Farmer",
+    "title": " System Architecture for \"Support Through Mobile Messaging and Digital Health Technology for Diabetes\" (SuMMiT-D): Design and Performance in Pilot and Randomized Controlled Feasibility Studies",
+    "type": "journal",
+    "source": "JMIR Formative Research",
+    "date": "March 2021",
+    "document": "https://formative.jmir.org/2021/3/e18460/",
+    "bibtex": "",
+    "doi": "https://doi.org/10.2196/18460"
+  },  
+  {
     "authors": "Carmelo Velardo, David Clifton, Steven Hamblin, Rabia Khan, Lionel Tarassenko, Lucy Mackillop",
     "title": "Toward a Multivariate Prediction Model of Pharmacological Treatment for Women With Gestational Diabetes Mellitus: Algorithm Development and Validation",
     "type": "journal",
