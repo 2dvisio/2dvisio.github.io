@@ -1,7 +1,17 @@
-[
+[ 
+  {
+    "authors": "Tanvi Rai, Kate Morton, Cristian Roman, Roisin Doogue, Cathy Rice, Marney Williams, Claire Schwartz, Carmelo Velardo, Lionel Tarassenko, Lucy Yardley, Richard J. McManus, Lisa Hinton",
+    "title": "Optimizing a digital intervention for managing blood pressure in stroke patients using a diverse sample: Integrating the person‐based approach and patient and public involvement",
+    "type": "journal",
+    "source": "Health Expectations",
+    "date": "December 2020",
+    "document": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/hex.13173",
+    "bibtex": "",
+    "doi": "https://doi.org/10.1111/hex.13173"
+  },  
   {
     "authors": "Yuan Chi, Carmelo Velardo, Julie Allen, Stephanie Robinson, Evgenia Riga, David Judge, Lionel Tarassenko, Andrew J Farmer",
-    "title": " System Architecture for \"Support Through Mobile Messaging and Digital Health Technology for Diabetes\" (SuMMiT-D): Design and Performance in Pilot and Randomized Controlled Feasibility Studies",
+    "title": "System Architecture for \"Support Through Mobile Messaging and Digital Health Technology for Diabetes\" (SuMMiT-D): Design and Performance in Pilot and Randomized Controlled Feasibility Studies",
     "type": "journal",
     "source": "JMIR Formative Research",
     "date": "March 2021",
