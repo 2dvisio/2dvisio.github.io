@@ -1,5 +1,15 @@
 [ 
   {
+    "authors": "  Zhenchen Wang, Puja Myles, Anu Jain, James L Keidel, Roberto Liddi, Lucy Mackillop, Carmelo Velardo, Allan Tucker",
+    "title": "Evaluating a Longitudinal Synthetic Data Generator using Real World Data",
+    "type": "conference",
+    "source": "IEEE 34th International Symposium on Computer-Based Medical Systems (CBMS)",
+    "date": "January 2021",
+    "document": "https://ieeexplore.ieee.org/document/9474660",
+    "bibtex": "",
+    "doi": "https://doi.org/10.1109/CBMS52027.2021.00074"
+  },   
+  {
     "authors": "Maxine Whelan, Christopher Biggs, Carlos Areia, Elizabeth King, Beth Lawson, Nikki Newhouse, Xiaorong Ding, Carmelo Velardo, Mona Bafadhel, Lionel Tarassenko, Peter Watkinson, David Clifton, Andrew Farmer",
     "title": "Recruiting patients to a digital self-management study whilst in hospital for a chronic obstructive pulmonary disease exacerbation: A feasibility analysis",
     "type": "journal",
