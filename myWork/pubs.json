@@ -1,6 +1,6 @@
 [ 
   {
-    "authors": "  Zhenchen Wang, Puja Myles, Anu Jain, James L Keidel, Roberto Liddi, Lucy Mackillop, Carmelo Velardo, Allan Tucker",
+    "authors": "Zhenchen Wang, Puja Myles, Anu Jain, James L Keidel, Roberto Liddi, Lucy Mackillop, Carmelo Velardo, Allan Tucker",
     "title": "Evaluating a Longitudinal Synthetic Data Generator using Real World Data",
     "type": "conference",
     "source": "IEEE 34th International Symposium on Computer-Based Medical Systems (CBMS)",
@@ -8,6 +8,16 @@
     "document": "https://ieeexplore.ieee.org/document/9474660",
     "bibtex": "",
     "doi": "https://doi.org/10.1109/CBMS52027.2021.00074"
+  },   
+  {
+    "authors": "Tanvi Rai, Kate Morton, Cristian Roman, Roisin Doogue, Cathy Rice, Marney Williams, Claire Schwartz, Carmelo Velardo, Lionel Tarassenko, Lucy Yardley, Richard J McManus, Lisa Hinton",
+    "title": "Optimizing a digital intervention for managing blood pressure in stroke patients using a diverse sample: Integrating the person‐based approach and patient and public involvement",
+    "type": "journal",
+    "source": "Health Expectations",
+    "date": "April 2021",
+    "document": "https://onlinelibrary.wiley.com/doi/full/10.1111/hex.13173",
+    "bibtex": "",
+    "doi": "https://doi.org/10.1111/hex.13173"
   },   
   {
     "authors": "Maxine Whelan, Christopher Biggs, Carlos Areia, Elizabeth King, Beth Lawson, Nikki Newhouse, Xiaorong Ding, Carmelo Velardo, Mona Bafadhel, Lionel Tarassenko, Peter Watkinson, David Clifton, Andrew Farmer",
