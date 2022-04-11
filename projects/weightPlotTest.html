@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weight graph</title>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+
+    <script>
+  // create a dataSet with groups
+    var groups = new vis.DataSet();
+    groups.add({
+        id: 0,
+        content: 'Top limit',
+      	style: "stroke: gray;",
+        options: {
+            drawPoints: false,
+            shaded: {
+                style: 'fill: gray; fill-opacity: 0.2',
+                orientation: 'top' // top, bottom
+            },
+						interpolation: false
+        }});
+
+    groups.add({
+        id: 1,
+        content: 'bottom limit',
+      	style: "stroke: gray;",
+        options: {
+            drawPoints: false,
+            shaded: {
+                orientation: 'bottom', // top, bottom
+                style: 'fill: gray; fill-opacity: 0.2'
+            },
+						interpolation: false
+        }});
+
+    groups.add({
+        id: 2,
+        content: 'Target',
+      	style: "stroke-dasharray:10 10; stroke: green; stroke-width: 1",
+        options: {
+            drawPoints: {
+            	style: 'circle'
+            },
+						interpolation: false
+        }});
+
+    groups.add({
+        id: 3,
+        content: 'Target',
+      	style: "stroke-dasharray:7 10; stroke: red; stroke-width:1",
+        options: {
+            drawPoints: {
+            	style: 'square'
+            },
+						interpolation: false
+        }});
+		var dateStart = new Date();
+    var startTime = dateStart.getTime();
+    var weekTimeInSeconds = 7 * 24 * 3600* 1000; 
+
+    var container = document.getElementById('visualization');
+    var items = [
+        {x: startTime + 0 * weekTimeInSeconds, y: 60, group: 0},
+      	{x: startTime + 2 * weekTimeInSeconds, y: 60, group: 0},
+        {x: startTime + 13 * weekTimeInSeconds, y: 63, group: 0},
+        {x: startTime + 42 * weekTimeInSeconds, y: 77, group: 0},
+      	{x: startTime + 0 * weekTimeInSeconds, y: 60, group: 1},
+      	{x: startTime + 2 * weekTimeInSeconds, y: 60, group: 1},
+        {x: startTime + 13 * weekTimeInSeconds, y: 61, group: 1},
+        {x: startTime + 42 * weekTimeInSeconds, y: 72, group: 1},
+      	{x: startTime + 12 * weekTimeInSeconds, y: 61.5, group: 2},
+        {x: startTime + 16 * weekTimeInSeconds, y: 63.5, group: 2},
+        {x: startTime + 42 * weekTimeInSeconds, y: 74, group: 2},
+      	{x: startTime + 12 * weekTimeInSeconds, y: 61.5, group: 2},
+        {x: startTime + 16 * weekTimeInSeconds, y: 63.5, group: 2},
+        {x: startTime + 42 * weekTimeInSeconds, y: 74, group: 2},
+      	{x: startTime + 25 * weekTimeInSeconds, y: 71, group: 3},
+        {x: startTime + 42 * weekTimeInSeconds, y: 74, group: 3}
+    ];
+
+    var dataset = new vis.DataSet(items);
+    var options = {
+        legend: false,
+        yAxisOrientation: 'right', // right, left
+        start: startTime,
+        end: startTime + 43 * weekTimeInSeconds,
+        moveable: false
+    };
+    var graph2d = new vis.Graph2d(container, dataset, groups, options);
+    </script>
+
+  </body>
+</html>
