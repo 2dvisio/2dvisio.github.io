@@ -1,4 +1,34 @@
-[ 
+[
+  {
+    "authors": "Andrew Farmer, Louise Jones, Nikki Newhouse, Cassandra Kenning, Nicola Williams, Yuan Chi, Y Kiera Bartlett, Catrin Plumpton, Jenny McSharry, Rachel Cholerton, Emily Holmes, Stephanie Robinson, Julie Allen, Bernard Gudgin, Carmelo Velardo, Heather Rutter, Rob Horne, Lionel Tarassenko, Veronika Williams, Louise Locock, Rustam Rea, Ly-Mee Yu, Dyfrig Hughes, Peter Bower, David French",
+    "title": "Supporting People With Type 2 Diabetes in the Effective Use of Their Medicine Through Mobile Health Technology Integrated With Clinical Care to Reduce Cardiovascular Risk: Protocol for an Effectiveness and Cost-effectiveness Randomized Controlled Trial",
+    "type": "journal",
+    "source": "JMIR research protocols",
+    "date": "February 2022",
+    "document": "https://www.researchprotocols.org/2022/2/e32918/PDF",
+    "bibtex": "",
+    "doi": "https://doi.org/10.2196/32918"
+  },
+  {
+    "authors": "Lucy C. Chappell, Katherine L. Tucker, Ushma Galal, Ly-Mee Yu, Helen Campbell, Oliver Rivero-Arias, Julie Allen, Rebecca Band, Alison Chisholm, Carole Crawford, Greig Dougall, Lazarina Engonidou, Marloes Franssen, Marcus Green, Sheila Greenfield, Lisa Hinton, James Hodgkinson, Layla Lavallee, Paul Leeson, Christine McCourt, Lucy Mackillop, Jane Sandall, Mauro Santos, Lionel Tarassenko, Carmelo Velardo, Hannah Wilson, Lucy Yardley, Richard J. McManus",
+    "title": "Effect of Self-monitoring of Blood Pressure on Blood Pressure Control in Pregnant Individuals With Chronic or Gestational Hypertension: The BUMP 2 Randomized Clinical Trial",
+    "type": "journal",
+    "source": "JAMA",
+    "date": "May 2022",
+    "document": "https://jamanetwork.com/journals/jama/article-abstract/2791694",
+    "bibtex": "",
+    "doi": "https://doi.org/10.1001/jama.2022.4726"
+  },
+  {
+    "authors": "Katherine L. Tucker, Sam Mort, Ly-Mee Yu, Helen Campbell, Oliver Rivero-Arias, Hannah M. Wilson, Julie Allen, Rebecca Band, Alison Chisholm, Carole Crawford, Greig Dougall, Lazarina Engonidou, Marloes Franssen, Marcus Green, Sheila Greenfield, Lisa Hinton, James Hodgkinson, Layla Lavallee, Paul Leeson, Christine McCourt, Lucy Mackillop, Jane Sandall, Mauro Santos, Lionel Tarassenko, Carmelo Velardo, Lucy Yardley, Lucy C. Chappell, Richard J. McManus",
+    "title": "Effect of Self-monitoring of Blood Pressure on Diagnosis of Hypertension During Higher-Risk Pregnancy: The BUMP 1 Randomized Clinical Trial",
+    "type": "journal",
+    "source": "JAMA",
+    "date": "May 2022",
+    "document": "https://jamanetwork.com/journals/jama/article-abstract/2791695",
+    "bibtex": "",
+    "doi": "https://doi.org/10.1001/jama.2022.4712"
+  },
   {
     "authors": "Zhenchen Wang, Puja Myles, Anu Jain, James L Keidel, Roberto Liddi, Lucy Mackillop, Carmelo Velardo, Allan Tucker",
     "title": "Evaluating a Longitudinal Synthetic Data Generator using Real World Data",
