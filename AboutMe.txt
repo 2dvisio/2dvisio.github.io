@@ -1,44 +1,22 @@
 About me
 ========
 
+Carmelo Velardo, PhD
+Service Owner, Use Research Data – Genomics England
 
-Carmelo Velardo obtained his MSc in Computer Science Engineer both from "Politecnico di Torino" (Turin, Italy) and from EURECOM (Sophia Antipolis, France).
-He also achieved his Master for research studies from the “Ecole Doctorale STIC” (Sophia Antipolis, France) in "Image and geometry for multimedia and life modelling". 
+Dr Carmelo Velardo is a computer scientist with over fifteen years’ experience across biometrics, data science, and digital health. He holds an MSc in Computer Engineering from Politecnico di Torino and EURECOM, and a PhD in Signal Processing from Telecom ParisTech/EURECOM.
 
-After a short break as research assistant at the Universal Design Group of the Panasonic San Jose Laboratory in 2007, he then completed his Master studies at EURECOM to join later on as PhD student. 
+He spent seven years at the University of Oxford as Senior Researcher and Lecturer, developing mobile-health solutions for chronic conditions including COPD, diabetes, and heart failure. He helped design and participated in more than 15 clinical trials, with his work underpinning GDm-health, the first app to gain NICE endorsement. He has authored over 50 scientific articles.
 
-In 2012 he successfully defended his PhD dissertation on “Anthropometry and Soft Biometrics for Smart Monitoring” under the supervision of Professor Jean-Luc Dugelay (EURECOM).
-
-The same year he joined the Institute of Biomedical Engineering of the University of Oxford as Post Doctoral Research Assistant where he collaborates with Professor Lionel Tarassenko.
-
-His interests include digital health systems, mobile health and ambient assisted living applications, patient behaviour and interaction with computerised systems, signal processing and machine learning.
-
-He is now involved in several projects that intend to provide a unified, clinically validated approach to self-management and self-monitoring of chronic conditions (COPD, diabetes, heart failure, gestational diabetes, obesity).
-
+Carmelo has also held senior roles at Sensyne Health and LAB10x. At Genomics England, he now leads the Use Research Data service, enabling researchers to translate large-scale genomic datasets into clinical and scientific insights.
 
 === 
 
-Carmelo Velardo is Senior researcher in Digital Health at the Institute of Biomedical Engineering and Departmental Lecturer at the Department of Engineering Science, University of Oxford, United Kingdom. Dr. Velardo’s work over the past 8 years (2008-2012 at Eurecom, since 2012 in Oxford) has spanned the topics of signal processing for novel Biometrics and Biomedical applications. He has participated to over 11 national and international research projects and has published 28 original research articles. 
-His recent research aims at the use of mobile-Health solutions to support patients suffering from chronic conditions. He has designed and developed a customisable, scalable client-server platform to allow engineers and clinicians to set up mobile-Health interventions in a very short time. The mobile-Health systems created by this platform collect data from patients (through a series of health sensors and questionnaires) and from electronic health record systems (within the NHS network). They also create reports for clinicians and patients and generate fully personalised automatic alerts. To achieve high usability and compliance rates he follows a user-centred design approach relying on information obtained actively and unobtrusively by the users. Actively, by organising interviews, co-design workshops, and questionnaires; unobtrusively, by using app analytics and statistics. His work has been used in several randomised controlled trials, and is now part of GDm-health, the first app to go through the NICE app endorsement process.
-
-===
-(88 words)
-Carmelo is Senior researcher in Digital Health at the Institute of Biomedical Engineering and Departmental Lecturer at the Department of Engineering Science, University of Oxford, United Kingdom. His work over the past 8 years has spanned the topics of signal processing for Biometrics and Biomedical applications. His current research focusses on the use of mobile-Health solutions to support patients suffering from chronic conditions and the clinicians looking after them. His work has been used in several randomised controlled trials, and has also been implemented in several NHS Trusts.
 
 
+Carmelo Velardo, PhD
+Service Owner, Use Research Data – Genomics England
 
-===
-(88 words)
-Carmelo is the Expert in residence at LAB10x where he accompanies the successful teams through their path to growth and where he acts as point of contact between LAB10x, the University of Oxford, and the Oxford University Hospitals NHS Foundation Trust.
-In his role as Senior research fellow at Sensyne Health he oversees the R&D and the development of machine learning algorithms to support the Digital health products.
-He has been doing research in companies such as Motorola and Panasonic, and universities such as ParisTech and the University of Oxford for more than 10 years, 7 of which spent in Digital health applied to the management of chronic conditions.
+Dr Carmelo Velardo is a computer scientist with over fifteen years’ experience in biometrics, data science, and digital health. He holds an MSc in Computer Engineering and a PhD in Signal Processing from Telecom ParisTech/EURECOM.
 
-
-
-===
-(88 words)
-Carmelo has over ten years' experience in research and development, biometrics, data science, and digital health. He has an MSc in Computer Engineering from Polytechnic of Turin, and a PhD in Signal Processing from Telecom ParisTech.
-For seven years, as Senior Researcher and Lecturer at the Department of Engineering Science of the University of Oxford, he focussed on digital health applied to the management of chronic conditions such as COPD, diabetes, heart failure, and has collaborated with hundreds among consultants, GPs, nurses, midwives, and especially patients.
-He is now Senior research fellow at Sensyne Health where he oversees the R&D and development of machine learning algorithms to support the Digital health products. He co-authored more than 50 scientific articles.
-
-
+Formerly a Senior Researcher and Lecturer at the University of Oxford, he developed mobile-health solutions for chronic conditions and contributed to over 15 clinical trials, including GDm-health, the first app to receive NICE endorsement. He has held senior roles at Sensyne Health and LAB10x, and now leads the Use Research Data service at Genomics England.
