@@ -27,6 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght@40,400&amp;icon_names=genetics,hub,neurology,strategy&amp;display=block" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -269,14 +270,11 @@
       place-items:center;
       color:var(--petrol);
     }
-    .card-icon svg {
-      width:40px;
-      height:40px;
-      stroke:currentColor;
-      fill:none;
-      stroke-width:1.7;
-      stroke-linecap:round;
-      stroke-linejoin:round;
+    .card-icon .material-symbols-rounded {
+      display:block;
+      font-size:42px;
+      line-height:1;
+      font-variation-settings:'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 40;
     }
     .card.warm .card-icon { color:var(--terracotta); }
     .card.gold .card-icon { color:#9b6b08; }
@@ -484,17 +482,7 @@
         <div class="cards">
           <article class="card teal">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48">
-                <path d="M10 32l14-6 14 6-14 6-14-6z"></path>
-                <path d="M10 32v7l14 6 14-6v-7"></path>
-                <path d="M24 38v7"></path>
-                <path d="M17 4c0 7.5 14 8 14 15s-14 7.5-14 15"></path>
-                <path d="M31 4c0 7.5-14 8-14 15s14 7.5 14 15"></path>
-                <path d="M18.5 9h11"></path>
-                <path d="M16.8 15h14.4"></path>
-                <path d="M16.8 23h14.4"></path>
-                <path d="M18.5 29h11"></path>
-              </svg>
+              <span class="material-symbols-rounded">genetics</span>
             </div>
             <h3>Research platforms &amp; data infrastructure</h3>
             <p>Building services that allow researchers to discover, access and analyse complex health and genomic data securely.</p>
@@ -502,15 +490,7 @@
 
           <article class="card blue">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48">
-                <circle cx="24" cy="24" r="17"></circle>
-                <path d="M29.5 18.5l-4 10-7 4 4-10 7-4z"></path>
-                <circle cx="24" cy="24" r="1.5" fill="currentColor" stroke="none"></circle>
-                <path d="M24 4v4"></path>
-                <path d="M24 40v4"></path>
-                <path d="M4 24h4"></path>
-                <path d="M40 24h4"></path>
-              </svg>
+              <span class="material-symbols-rounded">strategy</span>
             </div>
             <h3>Technology &amp; product strategy</h3>
             <p>Connecting user needs, scientific objectives, architecture, operations and investment decisions.</p>
@@ -518,18 +498,7 @@
 
           <article class="card warm">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48">
-                <rect x="5" y="5" width="12" height="10" rx="2"></rect>
-                <rect x="31" y="5" width="12" height="10" rx="2"></rect>
-                <rect x="5" y="33" width="12" height="10" rx="2"></rect>
-                <rect x="31" y="33" width="12" height="10" rx="2"></rect>
-                <circle cx="24" cy="24" r="5"></circle>
-                <path d="M16 14l4.5 6"></path>
-                <path d="M32 14l-4.5 6"></path>
-                <path d="M16 34l4.5-6"></path>
-                <path d="M32 34l-4.5-6"></path>
-                <path d="M21.5 24h5"></path>
-              </svg>
+              <span class="material-symbols-rounded">hub</span>
             </div>
             <h3>Service transformation</h3>
             <p>Designing operating models, teams, governance and supplier relationships that make complex technology work reliably at scale.</p>
@@ -537,19 +506,7 @@
 
           <article class="card gold">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48">
-                <path d="M24 9c-2.3-3.1-7.1-3.8-10-.8-4.4-.1-7.5 3.6-7 7.9-2.4 1.7-4 4.4-4 7.5 0 3.8 2.4 7 5.8 8.2-.4 4.7 3.3 8.7 8 8.7 3 0 5.7-1.7 7.2-4.2 1.5 2.5 4.2 4.2 7.2 4.2 4.7 0 8.4-4 8-8.7 3.4-1.2 5.8-4.4 5.8-8.2 0-3.1-1.6-5.8-4-7.5.5-4.3-2.6-8-7-7.9-2.9-3-7.7-2.3-10 .8z"></path>
-                <rect x="19" y="18" width="10" height="12" rx="2"></rect>
-                <circle cx="24" cy="24" r="2"></circle>
-                <path d="M19 21h-4l-2-3"></path>
-                <path d="M19 27h-5l-2 3"></path>
-                <path d="M29 21h4l2-3"></path>
-                <path d="M29 27h5l2 3"></path>
-                <path d="M22 18v-4l-2-2"></path>
-                <path d="M26 18v-4l2-2"></path>
-                <path d="M22 30v4l-2 2"></path>
-                <path d="M26 30v4l2 2"></path>
-              </svg>
+              <span class="material-symbols-rounded">neurology</span>
             </div>
             <h3>AI &amp; data</h3>
             <p>Applying a technical background in machine learning, analytics and digital health to contemporary data intensive services.</p>
