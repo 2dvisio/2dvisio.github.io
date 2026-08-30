@@ -1,298 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <meta property="dc:creator" content="Carmelo Velardo" />
-  <link href="mailto:carmelo.velardo@gmail.com" rev="made" />
-
-  <!-- jQuery Version 1.11.0 -->
-  <script src="js/jquery-1.11.0.js"></script>
-
-  <title>Carmelo Velardo - Projects</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/agency.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <style language="text/css">
-  .row-list { margin-top: 20px;}
-  .row {
-    margin-top: 0.5em;
-  }
-  section {
-    font-size: 1.2em;
-  }
-  section:nth-child(odd) {
-
-  }
-  section:nth-child(even) {
-    background-color:#207070;
-    color: #fff;
-  }
-  span.pub { padding: 5px; border-width: 2px; border-style: none; font-size: 1.1em;}
-  span.pub a{font-weight: bold; color: #09434e;  font-size: 0.9em;}
-  span.pub name{font-weight: bold; color: #09434e;  font-size: 0.9em;}
-  span.pub journal{font-style: italic;  font-size: 0.9em;}
-  span.pub authors{font-style: italic;  font-size: 0.9em;}
-  span.pub where{font-style: italic;  font-size: 0.8em;}
-  span.pub description{font-style: italic;  font-size: 0.8em;}
-  span.pub p{font-style: italic; font-size: 1em;}
-  span.pub when{font-style: italic;  font-size: 0.8em;}
-  a.reallink {color: blue; text-decoration: underline;}
-  .fa-counter-spin {
-    -webkit-animation: spin-counter 2s infinite linear;
-    -moz-animation: spin-counter 2s infinite linear;
-    -o-animation: spin-counter 2s infinite linear;
-    animation: spin-counter 2s infinite linear;
-  }
-  @-moz-keyframes spin-counter {
-    0% {
-      -moz-transform: rotate(359deg);
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Archived technical experiments and coding projects by Carmelo Velardo.">
+  <meta name="robots" content="index,follow">
+  <title>Carmelo Velardo | Technical Projects</title>
+  <link rel="canonical" href="https://velardo.org/projects/">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="theme-color" content="#063d49">
+  <style>
+    :root {
+      --petrol:#0b5361;
+      --petrol-dark:#063d49;
+      --teal:#0d7b83;
+      --terracotta:#c75f3b;
+      --gold:#d39a20;
+      --cream:#f7f1e8;
+      --paper:#fffdfa;
+      --ink:#17252b;
+      --muted:#607077;
+      --line:#d9e1df;
+      --shadow:0 12px 30px rgba(20,47,54,.08);
+      --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+      --sans:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
     }
-    100% {
-      -moz-transform: rotate(0deg);
-    }
-  }
-  @-webkit-keyframes spin-counter {
-    0% {
-      -webkit-transform: rotate(359deg);
-    }
-    100% {
-      -webkit-transform: rotate(0deg);
-    }
-  }
-  @-o-keyframes spin-counter {
-    0% {
-      -o-transform: rotate(359deg);
-    }
-    100% {
-      -o-transform: rotate(0deg);
-    }
-  }
-  @-ms-keyframes spin-counter {
-    0% {
-      -ms-transform: rotate(359deg);
-    }
-    100% {
-      -ms-transform: rotate(0deg);
-    }
-  }
-  @keyframes spin-counter {
-    0% {
-      transform: rotate(359deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); line-height:1.6; }
+    a { color:var(--petrol); text-underline-offset:3px; }
+    a:hover { color:var(--terracotta); }
+    img { display:block; max-width:100%; }
+    .shell { width:min(1120px,calc(100% - 40px)); margin:auto; }
+    header { background:var(--petrol-dark); color:white; }
+    .topbar { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { color:white; text-decoration:none; font-family:var(--mono); font-weight:700; }
+    .home { color:#d8eaec; text-decoration:none; font-family:var(--mono); font-size:.9rem; }
+    .hero { padding:72px 0 62px; background:linear-gradient(135deg,var(--cream),#fff); border-bottom:1px solid var(--line); }
+    .eyebrow { margin:0 0 10px; color:var(--terracotta); font-family:var(--mono); text-transform:uppercase; letter-spacing:.06em; font-weight:700; }
+    h1 { margin:0 0 18px; color:var(--petrol-dark); font-family:var(--mono); font-size:clamp(2.8rem,7vw,5rem); line-height:1; letter-spacing:-.04em; }
+    .lede { max-width:790px; margin:0; font-size:1.05rem; color:#344b54; }
+    .note { margin-top:24px; padding:14px 18px; max-width:830px; border-left:4px solid var(--gold); background:#fff7df; color:#5d4a18; }
+    main { padding:58px 0 70px; }
+    .section-title { display:flex; align-items:center; gap:14px; margin:0 0 26px; color:var(--teal); font-family:var(--mono); font-size:1.08rem; text-transform:uppercase; letter-spacing:.05em; }
+    .section-title::after { content:""; height:1px; flex:1; background:#a9cfd0; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+    .card { overflow:hidden; border:1px solid var(--line); border-radius:12px; background:white; box-shadow:var(--shadow); }
+    .card a { color:inherit; text-decoration:none; }
+    .thumb { aspect-ratio:16/10; overflow:hidden; background:#eef3f2; border-bottom:1px solid var(--line); }
+    .thumb img { width:100%; height:100%; object-fit:cover; }
+    .card-copy { padding:18px; }
+    .card h2 { margin:0 0 7px; color:var(--petrol-dark); font-family:var(--mono); font-size:1.02rem; }
+    .card p { margin:0; color:var(--muted); font-size:.88rem; }
+    .secondary { margin-top:58px; }
+    .list-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .list-card { padding:20px; border:1px solid var(--line); border-radius:10px; background:#fff; }
+    .list-card h2 { margin:0 0 8px; color:var(--petrol-dark); font-family:var(--mono); font-size:1rem; }
+    .list-card p { margin:0 0 10px; color:var(--muted); font-size:.9rem; }
+    .list-card a { font-family:var(--mono); font-weight:700; text-decoration:none; }
+    .tool-list { display:grid; gap:10px; }
+    .tool-list a { display:block; padding:13px 15px; border:1px solid var(--line); border-radius:8px; background:#fff; text-decoration:none; font-family:var(--mono); font-weight:700; }
+    footer { background:var(--petrol-dark); color:#c6dadd; }
+    .footer { min-height:120px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .footer a { color:white; }
+    @media(max-width:850px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:600px) { .grid,.list-grid { grid-template-columns:1fr; } .hero { padding:48px 0; } .footer { align-items:flex-start; flex-direction:column; justify-content:center; } }
   </style>
-
-
-
 </head>
-
-<body id="page-top" class="index">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button-->
-        <a class="navbar-brand page-scroll" href="#page-top">Pr<i class="fa fa-cog fa-flip-horizontal fa-spin"></i>jects</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-        </ul>
-      </div-->
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
-
-  <!-- Header -->
+<body>
   <header>
-    <div class="container">
-      <div class="intro-text">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="intro-heading" style="color:#fff;">
-              Pr<i class="fa fa-cog fa-flip-horizontal fa-spin"></i>jects
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="shell topbar">
+      <a class="brand" href="/projects/">Carmelo Velardo / projects</a>
+      <a class="home" href="/">← main site</a>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- Services Section -->
-<section>
-  <div class="container">
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-      <h2 class="section-heading"><i class="fa fa-code"></i> Open Clinica converter</h2>
-      This python module reads a CSV (converted from XLS) CRF from the Open Clinica format and create a JSON representation compatible with the jquery.dform() method.<br/>
-      Used in an HTML page it will render the form seamlessly. Perfect for being used with MongoDB and other NoSQL databases.
+  <section class="hero">
+    <div class="shell">
+      <p class="eyebrow">Technical archaeology</p>
+      <h1>Projects &amp; experiments</h1>
+      <p class="lede">A preserved collection of older coding experiments, prototypes and utilities from my technical work. These are kept as evidence of the engineering background behind my later product and technology leadership work.</p>
+      <div class="note">These experiments intentionally preserve older code and libraries. They are not presented as current production patterns.</div>
     </div>
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-        <pre><i class="fa fa-code"></i> git clone https://github.com/2dvisio/OC2HTML.git</pre>
-    </div>
-  </div>
-</section>
+  </section>
 
-
-<!-- Services Section -->
-<section>
-  <div class="container">
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading"><i class="fa fa-code"></i> GoogleFit Cordova Plugin</h2>
-        This plugin is a proof of concept for a plugin for connecting to GoogleFit from Cordova.<br/>
-        You can clone it from GitHub.
+  <main class="shell">
+    <h2 class="section-title">Visual experiments</h2>
+    <div class="grid">
+      <article class="card"><a href="waves.html"><div class="thumb"><img src="img/waves_html.png" alt="Waves experiment"></div><div class="card-copy"><h2>Waves</h2><p>Generative wave experiment in p5.js.</p></div></a></article>
+      <article class="card"><a href="spirals.html"><div class="thumb"><img src="img/spirals_html.png" alt="Spirals experiment"></div><div class="card-copy"><h2>Spirals</h2><p>Geometric spiral exploration in p5.js.</p></div></a></article>
+      <article class="card"><a href="sierpinski.html"><div class="thumb"><img src="img/sierpinski_html.png" alt="Sierpinski triangle experiment"></div><div class="card-copy"><h2>Sierpinski triangle</h2><p>Interactive recursive triangle construction.</p></div></a></article>
+      <article class="card"><a href="sierpinski_curve.html"><div class="thumb"><img src="img/sierpinski_curve_html.png" alt="Sierpinski curve experiment"></div><div class="card-copy"><h2>Sierpinski curve</h2><p>Recursive space filling curve experiment.</p></div></a></article>
+      <article class="card"><a href="koch_single_curve.html"><div class="thumb"><img src="img/koch_single_curve_html.png" alt="Koch curve experiment"></div><div class="card-copy"><h2>Koch curve</h2><p>Single recursive Koch curve.</p></div></a></article>
+      <article class="card"><a href="koch_curve.html"><div class="thumb"><img src="img/koch_curve_html.png" alt="Koch snowflake experiment"></div><div class="card-copy"><h2>Koch snowflake</h2><p>Two dimensional recursive snowflake.</p></div></a></article>
+      <article class="card"><a href="dragon_curve.html"><div class="thumb"><img src="img/dragon_curve_html.png" alt="Dragon curve experiment"></div><div class="card-copy"><h2>Dragon curve</h2><p>Interactive recursive dragon curve.</p></div></a></article>
+      <article class="card"><a href="pythagoras_tree.html"><div class="thumb"><img src="img/pythagoras_tree_html.png" alt="Pythagoras tree experiment"></div><div class="card-copy"><h2>Pythagoras tree</h2><p>Recursive branching geometry.</p></div></a></article>
+      <article class="card"><a href="poisson_sampling.html"><div class="thumb"><img src="img/poisson_sampling_html.png" alt="Poisson sampling experiment"></div><div class="card-copy"><h2>Poisson sampling</h2><p>Interactive spatial point sampling experiment.</p></div></a></article>
     </div>
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-        <pre><i class="fa fa-code"></i> git clone https://github.com/2dvisio/cordova-plugin-googlefit.git</pre>
-    </div>
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-      <a href="https://github.com/dariosalvi78/cordova-plugin-health">This one here</a> was recently created for storing/reading data from GoogleFit and it attempts to make it compatible with Apple HealthKit, use this one in case you need to do more than just read activity data from GoogleFit.
-    </div>
-  </div>
-</section>
 
-  
-  
-<!-- Services Section -->
-<section>
-  <div class="container">
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading"><i class="fa fa-code"></i> Telegram Blood Pressure Bot</h2>
-        This plugin is a proof of concept for a Telegram Bot that is able to store and preserve the history of blood pressure data provided to it.<br/>
-        The bot is able to also generate graphs for the user.<br/>
-        You can test it by adding `bphomebot` to your telegram contacts. You can clone the project from GitHub. 
+    <section class="secondary">
+      <h2 class="section-title">Other prototypes</h2>
+      <div class="list-grid">
+        <article class="list-card">
+          <h2>Respiratory rate counter</h2>
+          <p>A browser prototype for estimating breathing rate from manually counted respiratory cycles.</p>
+          <a href="respiratory-rate/">Open prototype →</a>
+        </article>
+        <article class="list-card">
+          <h2>Weight plot prototype</h2>
+          <p>An early interactive graph prototype using the Vis.js graph library.</p>
+          <a href="weight-plot/">Open prototype →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="secondary">
+      <h2 class="section-title">Archived utilities</h2>
+      <div class="tool-list">
+        <a href="tools/createMosaic.py">createMosaic.py · old OpenCV video mosaic utility</a>
+        <a href="tools/show_activities.py">show_activities.py · Android ADB activity inspection utility</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer">
+      <span>Preserved technical experiments by Carmelo Velardo</span>
+      <span><a href="/">velardo.org</a> · <a href="https://github.com/2dvisio">GitHub</a> · <a href="https://www.linkedin.com/in/carmelovelardo">LinkedIn</a></span>
     </div>
-    <div class="row col-lg-8 col-lg-offset-2 text-center">
-        <pre><i class="fa fa-code"></i> git clone https://github.com/2dvisio/bpbot.git</pre>
-    </div>
-  </div>
-</section>
-
-<!-- Services Section -->
-<section id="">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading"><i class="fa fa-code"></i> P5js</h2>
-        Some stuff done out of <a class="reallink"  href="http://p5js.org/">P5js</a>, a JavaScript library that starts with the original goal of <a class="reallink"  href="http://processing.org">Processing</a>.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 text-center">
-        <h3>Waves<br/></h3>
-        <a href="waves.html" target="_blank"><img src="img/waves_html.png"  width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Spirals<br/></h3>
-        <a href="spirals.html" target="_blank"><img src="img/spirals_html.png" width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Sierpinski triangle<br/></h3>
-        <a href="sierpinski.html" target="_blank"><img src="img/sierpinski_html.png" width="200"/></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 text-center">
-        <h3>Sierpinski curve<br/></h3>
-        <a href="sierpinski_curve.html" target="_blank"><img src="img/sierpinski_curve_html.png"  width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Koch curve</h3>
-        <a href="koch_single_curve.html" target="_blank"><img src="img/koch_single_curve_html.png"  width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Koch 2d snowflake</h3>
-        <a href="koch_curve.html" target="_blank"><img src="img/koch_curve_html.png"  width="200"/></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 text-center">
-        <h3>Dragon curve</h3>
-        <a href="dragon_curve.html" target="_blank"><img src="img/dragon_curve_html.png"  width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Pythagoras tree<br/></h3>
-        <a href="pythagoras_tree.html" target="_blank"><img src="img/pythagoras_tree_html.png"  width="200"/></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <h3>Poisson sampling<br/></h3>
-        <a href="poisson_sampling.html" target="_blank"><img src="img/poisson_sampling_html.png"  width="200"/></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer style="border-top:#000 dashed;">
-  <div class="container" >
-    <div class="row">
-      <div class="col-md-8">
-        <span class="copyright">Copyright &copy; www.velardo.org 2014 - 4eva</span>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          <li><a target="_blank" href="https://twitter.com/2dvisio"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li><a  target="_blank" href="http://www.linkedin.com/in/velardocarmelo"><i class="fa fa-linkedin"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="js/agency.js"></script>
-
+  </footer>
 </body>
-
 </html>

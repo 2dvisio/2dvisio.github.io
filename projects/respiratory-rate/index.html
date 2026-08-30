@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <title>Respiratory rate prototype</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    body { margin:0; background:#fffdfa; color:#17252b; font-family:system-ui,sans-serif; }
+    main { width:min(620px,calc(100% - 36px)); margin:50px auto; }
+    a { color:#0b5361; }
+    button { width:100%; margin-top:24px; padding:16px 20px; border:0; border-radius:10px; background:#0b5361; color:white; font-size:1.05rem; font-weight:700; cursor:pointer; }
+    button:disabled { opacity:.45; cursor:not-allowed; }
+    .counter { margin:32px 0 0; text-align:center; font-size:4rem; font-variant-numeric:tabular-nums; }
+    .result { text-align:center; color:#0d7b83; }
+    .note { color:#607077; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="/projects/">← Projects</a>
+    <h1>Respiratory rate counter</h1>
+    <p class="note">Historical browser prototype. Press the button once for each respiratory cycle during the 60 second counting period.</p>
+    <button id="btnRespCount" type="button" onclick="countRespiration()">Count respiratory cycle</button>
+    <div class="counter" id="mainCounter">--</div>
+    <h2 class="result" id="mainResult"></h2>
+  </main>
+  <script src="respiratoryRateCode.js"></script>
+</body>
+</html>
